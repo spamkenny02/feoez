@@ -1,0 +1,9 @@
+{
+  "version": "V56",
+  "base": "V55",
+  "graphics_entries": 8,
+  "ips_sha256": "7aac9ad6e953bbe366ce9c6e094b46af9052fd9524e94a5450433970fe0f5f50",
+  "rom_sha256": "0c2908b76b5681e8d00be64f2126152c1292c8b8ab4846ada6671a89c6a8eddd",
+  "ips_roundtrip": true,
+  "runtime_validation": "captures Snes9x : verification/ecran_strategie_v56.png"
+}

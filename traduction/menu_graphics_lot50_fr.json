@@ -1,0 +1,58 @@
+[
+ {
+  "offset": "0x6d4000",
+  "tiles": 4,
+  "english": "Attack",
+  "french": "Attaq.",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d4040",
+  "tiles": 3,
+  "english": "Items",
+  "french": "Objet",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d4070",
+  "tiles": 4,
+  "english": "Scrolls",
+  "french": "Parch.",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d40b0",
+  "tiles": 4,
+  "english": "Manual",
+  "french": "Manuel",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d40f0",
+  "tiles": 7,
+  "english": "Secret Skills",
+  "french": "Arts secr.",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d4160",
+  "tiles": 4,
+  "english": "Defend",
+  "french": "Garder",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d41a0",
+  "tiles": 2,
+  "english": "Set (partie de Set Strategy)",
+  "french": "",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ },
+ {
+  "offset": "0x6d41c0",
+  "tiles": 5,
+  "english": "Strategy",
+  "french": "Stratégie",
+  "screen": "Stratégie (liste de commandes, titre et en-tête)"
+ }
+]
