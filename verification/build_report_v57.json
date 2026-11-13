@@ -1,0 +1,2134 @@
+{
+ "version": "V57",
+ "base": "V56",
+ "object_name_strips": 303,
+ "max_pixels": 64,
+ "width_limit": 64,
+ "ips_sha256": "ba6af76ffa99ebbfb995765b21622e1b83812f43a13ed357c40c918aacedc5c1",
+ "rom_sha256": "25dcd1494d28d9400b6364d4fdd101d8834cbb03646e4e1059ff92d7cb60342c",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/boutique_v57.png, equip_v57.png",
+ "entries": [
+  {
+   "index": 0,
+   "offset": "0x6f6000",
+   "english": "Momoko's +icon",
+   "french": "De Momoko",
+   "pixels": 55
+  },
+  {
+   "index": 1,
+   "offset": "0x6f6080",
+   "english": "First Love +icon",
+   "french": "1er amour",
+   "pixels": 54
+  },
+  {
+   "index": 2,
+   "offset": "0x6f6100",
+   "english": "Passionate +icon",
+   "french": "Passion",
+   "pixels": 41
+  },
+  {
+   "index": 3,
+   "offset": "0x6f6180",
+   "english": "Yearning +icon",
+   "french": "Désir",
+   "pixels": 31
+  },
+  {
+   "index": 4,
+   "offset": "0x6f6200",
+   "english": "Heartbroken +icon",
+   "french": "Cœur brisé",
+   "pixels": 60
+  },
+  {
+   "index": 5,
+   "offset": "0x6f6280",
+   "english": "Lonely +icon",
+   "french": "Solitude",
+   "pixels": 42
+  },
+  {
+   "index": 6,
+   "offset": "0x6f6300",
+   "english": "Sorrowful +icon",
+   "french": "Chagrin",
+   "pixels": 41
+  },
+  {
+   "index": 7,
+   "offset": "0x6f6380",
+   "english": "Unfortunate +icon",
+   "french": "Malheur",
+   "pixels": 42
+  },
+  {
+   "index": 8,
+   "offset": "0x6f6400",
+   "english": "Resentful +icon",
+   "french": "Rancœur",
+   "pixels": 49
+  },
+  {
+   "index": 9,
+   "offset": "0x6f6480",
+   "english": "Farewell +icon",
+   "french": "Adieu",
+   "pixels": 32
+  },
+  {
+   "index": 10,
+   "offset": "0x6f6500",
+   "english": "Gold Bag",
+   "french": "Sac à or",
+   "pixels": 38
+  },
+  {
+   "index": 11,
+   "offset": "0x6f6580",
+   "english": "Torn Gold Bag",
+   "french": "Sac déchiré",
+   "pixels": 51
+  },
+  {
+   "index": 12,
+   "offset": "0x6f6600",
+   "english": "Gold",
+   "french": "Or",
+   "pixels": 11
+  },
+  {
+   "index": 13,
+   "offset": "0x6f6680",
+   "english": "Sky Lord Pill",
+   "french": "Pil. du Ciel",
+   "pixels": 43
+  },
+  {
+   "index": 14,
+   "offset": "0x6f6700",
+   "english": "Healing Pill",
+   "french": "Pilule de soin",
+   "pixels": 56
+  },
+  {
+   "index": 15,
+   "offset": "0x6f6780",
+   "english": "Typha Oil",
+   "french": "Huile typha",
+   "pixels": 47
+  },
+  {
+   "index": 16,
+   "offset": "0x6f6800",
+   "english": "Buddhist Manju",
+   "french": "Manju zen",
+   "pixels": 43
+  },
+  {
+   "index": 17,
+   "offset": "0x6f6880",
+   "english": "Shell Manju",
+   "french": "Manju coque",
+   "pixels": 53
+  },
+  {
+   "index": 18,
+   "offset": "0x6f6900",
+   "english": "Chestnut Manju",
+   "french": "Manju marron",
+   "pixels": 59
+  },
+  {
+   "index": 19,
+   "offset": "0x6f6980",
+   "english": "Manju",
+   "french": "Manju",
+   "pixels": 24
+  },
+  {
+   "index": 20,
+   "offset": "0x6f6a00",
+   "english": "Kusa Dango",
+   "french": "Kusa dango",
+   "pixels": 49
+  },
+  {
+   "index": 21,
+   "offset": "0x6f6a80",
+   "english": "Gambler's Pill",
+   "french": "Pil. du joueur",
+   "pixels": 57
+  },
+  {
+   "index": 22,
+   "offset": "0x6f6b00",
+   "english": "Tortoise Pill",
+   "french": "Pil. tortue",
+   "pixels": 43
+  },
+  {
+   "index": 23,
+   "offset": "0x6f6b80",
+   "english": "Water of Life",
+   "french": "Eau de vie",
+   "pixels": 45
+  },
+  {
+   "index": 24,
+   "offset": "0x6f6c00",
+   "english": "Solar Light",
+   "french": "Lum. solaire",
+   "pixels": 51
+  },
+  {
+   "index": 25,
+   "offset": "0x6f6c80",
+   "english": "Lunar Light",
+   "french": "Lum. lunaire",
+   "pixels": 51
+  },
+  {
+   "index": 26,
+   "offset": "0x6f6d00",
+   "english": "Star Light",
+   "french": "Lum. stellaire",
+   "pixels": 57
+  },
+  {
+   "index": 27,
+   "offset": "0x6f6d80",
+   "english": "Almighty Pill",
+   "french": "Pil. suprême",
+   "pixels": 51
+  },
+  {
+   "index": 28,
+   "offset": "0x6f6e00",
+   "english": "Soft Pill",
+   "french": "Pilule Souple",
+   "pixels": 52
+  },
+  {
+   "index": 29,
+   "offset": "0x6f6e80",
+   "english": "Relaxing Pill",
+   "french": "Pil. calmante",
+   "pixels": 52
+  },
+  {
+   "index": 30,
+   "offset": "0x6f6f00",
+   "english": "Forget-me-not",
+   "french": "Myosotis",
+   "pixels": 37
+  },
+  {
+   "index": 31,
+   "offset": "0x6f6f80",
+   "english": "Wooden Mallet",
+   "french": "Maillet en bois",
+   "pixels": 61
+  },
+  {
+   "index": 32,
+   "offset": "0x6f7000",
+   "english": "Wasabi Pill",
+   "french": "Pil. wasabi",
+   "pixels": 43
+  },
+  {
+   "index": 33,
+   "offset": "0x6f7080",
+   "english": "Solar Pill",
+   "french": "Pilule solaire",
+   "pixels": 54
+  },
+  {
+   "index": 34,
+   "offset": "0x6f7100",
+   "english": "Antidote",
+   "french": "Antidote",
+   "pixels": 36
+  },
+  {
+   "index": 35,
+   "offset": "0x6f7180",
+   "english": "Miracle Liquor",
+   "french": "Liq. miracle",
+   "pixels": 48
+  },
+  {
+   "index": 36,
+   "offset": "0x6f7200",
+   "english": "Life Liquor",
+   "french": "Saké de vie",
+   "pixels": 50
+  },
+  {
+   "index": 37,
+   "offset": "0x6f7280",
+   "english": "Amorous Lunch",
+   "french": "Bento d'amour",
+   "pixels": 61
+  },
+  {
+   "index": 38,
+   "offset": "0x6f7300",
+   "english": "Loving Smile",
+   "french": "Doux sourire",
+   "pixels": 57
+  },
+  {
+   "index": 39,
+   "offset": "0x6f7380",
+   "english": "Chocolate",
+   "french": "Chocolat",
+   "pixels": 36
+  },
+  {
+   "index": 40,
+   "offset": "0x6f7400",
+   "english": "Love Cracker",
+   "french": "Biscuit amour",
+   "pixels": 58
+  },
+  {
+   "index": 41,
+   "offset": "0x6f7480",
+   "english": "White Candy",
+   "french": "Bonbon blanc",
+   "pixels": 56
+  },
+  {
+   "index": 42,
+   "offset": "0x6f7500",
+   "english": "Hearty Brew",
+   "french": "Brev. tonique",
+   "pixels": 57
+  },
+  {
+   "index": 43,
+   "offset": "0x6f7580",
+   "english": "Essence Brew",
+   "french": "Brev. essence",
+   "pixels": 61
+  },
+  {
+   "index": 44,
+   "offset": "0x6f7600",
+   "english": "Swirling Brew",
+   "french": "Brev. spirale",
+   "pixels": 55
+  },
+  {
+   "index": 45,
+   "offset": "0x6f7680",
+   "english": "Spirit's Brew",
+   "french": "Brev. d'esprit",
+   "pixels": 59
+  },
+  {
+   "index": 46,
+   "offset": "0x6f7700",
+   "english": "Wizard's Brew",
+   "french": "Brev. sorcier",
+   "pixels": 58
+  },
+  {
+   "index": 47,
+   "offset": "0x6f7780",
+   "english": "Arcane Brew",
+   "french": "Brev. occulte",
+   "pixels": 57
+  },
+  {
+   "index": 48,
+   "offset": "0x6f7800",
+   "english": "Flight Stone",
+   "french": "Pierre d'envol",
+   "pixels": 60
+  },
+  {
+   "index": 49,
+   "offset": "0x6f7880",
+   "english": "Return Stone",
+   "french": "Pierre retour",
+   "pixels": 60
+  },
+  {
+   "index": 50,
+   "offset": "0x6f7900",
+   "english": "Pleasant Drum",
+   "french": "Tambour doux",
+   "pixels": 62
+  },
+  {
+   "index": 51,
+   "offset": "0x6f7980",
+   "english": "Annoying Drum",
+   "french": "Tamb. agaçant",
+   "pixels": 62
+  },
+  {
+   "index": 52,
+   "offset": "0x6f7a00",
+   "english": "Cat Statue Bell",
+   "french": "Clochette chat",
+   "pixels": 63
+  },
+  {
+   "index": 53,
+   "offset": "0x6f7a80",
+   "english": "Potent Drug",
+   "french": "Remède fort",
+   "pixels": 53
+  },
+  {
+   "index": 54,
+   "offset": "0x6f7b00",
+   "english": "Fortified Drug",
+   "french": "Remède vif",
+   "pixels": 46
+  },
+  {
+   "index": 55,
+   "offset": "0x6f7b80",
+   "english": "Rapid Drug",
+   "french": "Remède rapide",
+   "pixels": 62
+  },
+  {
+   "index": 56,
+   "offset": "0x6f7c00",
+   "english": "Choking Scent",
+   "french": "Parf. âcre",
+   "pixels": 45
+  },
+  {
+   "index": 57,
+   "offset": "0x6f7c80",
+   "english": "Alluring Scent",
+   "french": "Parf. charme",
+   "pixels": 56
+  },
+  {
+   "index": 58,
+   "offset": "0x6f7d00",
+   "english": "Evening Scent",
+   "french": "Parf. du soir",
+   "pixels": 56
+  },
+  {
+   "index": 59,
+   "offset": "0x6f7d80",
+   "english": "Blazing Moon",
+   "french": "Lune ardente",
+   "pixels": 58
+  },
+  {
+   "index": 60,
+   "offset": "0x6f7e00",
+   "english": "Memorial Moon",
+   "french": "Lune souvenir",
+   "pixels": 61
+  },
+  {
+   "index": 61,
+   "offset": "0x6f7e80",
+   "english": "Melty Moon",
+   "french": "Lune fondante",
+   "pixels": 62
+  },
+  {
+   "index": 62,
+   "offset": "0x6f7f00",
+   "english": "Meager Powder",
+   "french": "Poudre faible",
+   "pixels": 57
+  },
+  {
+   "index": 63,
+   "offset": "0x6f7f80",
+   "english": "Sorrow Powder",
+   "french": "Poudre peine",
+   "pixels": 56
+  },
+  {
+   "index": 64,
+   "offset": "0x6f8000",
+   "english": "Dozing Powder",
+   "french": "Pdre sommeil",
+   "pixels": 55
+  },
+  {
+   "index": 65,
+   "offset": "0x6f8080",
+   "english": "Dunce Powder",
+   "french": "Poudre idiote",
+   "pixels": 57
+  },
+  {
+   "index": 66,
+   "offset": "0x6f8100",
+   "english": "Wooden Charm",
+   "french": "Talis. de bois",
+   "pixels": 57
+  },
+  {
+   "index": 67,
+   "offset": "0x6f8180",
+   "english": "Red Charm",
+   "french": "Talis. rouge",
+   "pixels": 51
+  },
+  {
+   "index": 68,
+   "offset": "0x6f8200",
+   "english": "White Charm",
+   "french": "Talisman blanc",
+   "pixels": 62
+  },
+  {
+   "index": 69,
+   "offset": "0x6f8280",
+   "english": "Black Charm",
+   "french": "Talisman noir",
+   "pixels": 57
+  },
+  {
+   "index": 70,
+   "offset": "0x6f8300",
+   "english": "Blue Charm",
+   "french": "Talisman bleu",
+   "pixels": 57
+  },
+  {
+   "index": 71,
+   "offset": "0x6f8380",
+   "english": "Purple Charm",
+   "french": "Talisman violet",
+   "pixels": 63
+  },
+  {
+   "index": 72,
+   "offset": "0x6f8400",
+   "english": "Flaming Pot",
+   "french": "Pot ardent",
+   "pixels": 47
+  },
+  {
+   "index": 73,
+   "offset": "0x6f8480",
+   "english": "Flaming Pot",
+   "french": "Pot ardent",
+   "pixels": 47
+  },
+  {
+   "index": 74,
+   "offset": "0x6f8500",
+   "english": "Yo-yo",
+   "french": "Yo-yo",
+   "pixels": 25
+  },
+  {
+   "index": 75,
+   "offset": "0x6f8580",
+   "english": "Teddy Shield",
+   "french": "Bouclier ours",
+   "pixels": 58
+  },
+  {
+   "index": 76,
+   "offset": "0x6f8600",
+   "english": "Rainbow Shard",
+   "french": "Éclat irisé",
+   "pixels": 44
+  },
+  {
+   "index": 77,
+   "offset": "0x6f8680",
+   "english": "Mandala Flute",
+   "french": "Flûte Mandala",
+   "pixels": 58
+  },
+  {
+   "index": 78,
+   "offset": "0x6f8700",
+   "english": "Precious Chest",
+   "french": "Coffret rare",
+   "pixels": 56
+  },
+  {
+   "index": 79,
+   "offset": "0x6f8780",
+   "english": "Body Essence",
+   "french": "Ess. du corps",
+   "pixels": 60
+  },
+  {
+   "index": 80,
+   "offset": "0x6f8800",
+   "english": "Tech Essence",
+   "french": "Ess. technique",
+   "pixels": 62
+  },
+  {
+   "index": 81,
+   "offset": "0x6f8880",
+   "english": "Power Essence",
+   "french": "Ess. de force",
+   "pixels": 59
+  },
+  {
+   "index": 82,
+   "offset": "0x6f8900",
+   "english": "Guard Essence",
+   "french": "Ess. de garde",
+   "pixels": 60
+  },
+  {
+   "index": 83,
+   "offset": "0x6f8980",
+   "english": "Speed Essence",
+   "french": "Ess. vitesse",
+   "pixels": 52
+  },
+  {
+   "index": 84,
+   "offset": "0x6f8a00",
+   "english": "Luck Essence",
+   "french": "Ess. chance",
+   "pixels": 51
+  },
+  {
+   "index": 85,
+   "offset": "0x6f8a80",
+   "english": "Head Kibble",
+   "french": "Croq. Tête",
+   "pixels": 46
+  },
+  {
+   "index": 86,
+   "offset": "0x6f8b00",
+   "english": "Body Kibble",
+   "french": "Croq. Corps",
+   "pixels": 51
+  },
+  {
+   "index": 87,
+   "offset": "0x6f8b80",
+   "english": "Heart Kibble",
+   "french": "Croq. Cœur",
+   "pixels": 51
+  },
+  {
+   "index": 88,
+   "offset": "0x6f8c00",
+   "english": "Fart Kibble",
+   "french": "Croq. Pet",
+   "pixels": 40
+  },
+  {
+   "index": 89,
+   "offset": "0x6f8c80",
+   "english": "Mystery Kibble",
+   "french": "Croq. Mystère",
+   "pixels": 61
+  },
+  {
+   "index": 90,
+   "offset": "0x6f8d00",
+   "english": "Love's Key",
+   "french": "Clé d'amour",
+   "pixels": 49
+  },
+  {
+   "index": 91,
+   "offset": "0x6f8d80",
+   "english": "Apricot Doll",
+   "french": "Poup. abricot",
+   "pixels": 57
+  },
+  {
+   "index": 92,
+   "offset": "0x6f8e00",
+   "english": "Mechanical Doll",
+   "french": "Poupée méca",
+   "pixels": 55
+  },
+  {
+   "index": 93,
+   "offset": "0x6f8e80",
+   "english": "Music Box",
+   "french": "Boîte musicale",
+   "pixels": 61
+  },
+  {
+   "index": 94,
+   "offset": "0x6f8f00",
+   "english": "Floral Pan",
+   "french": "Poêle fleurie",
+   "pixels": 54
+  },
+  {
+   "index": 95,
+   "offset": "0x6f8f80",
+   "english": "Floral Purse",
+   "french": "Sac fleuri",
+   "pixels": 42
+  },
+  {
+   "index": 96,
+   "offset": "0x6f9000",
+   "english": "Feather Futon",
+   "french": "Futon plumes",
+   "pixels": 56
+  },
+  {
+   "index": 97,
+   "offset": "0x6f9080",
+   "english": "Eternal Flame",
+   "french": "Feu éternel",
+   "pixels": 50
+  },
+  {
+   "index": 98,
+   "offset": "0x6f9100",
+   "english": "Hermit's Horn",
+   "french": "Corne ermite",
+   "pixels": 56
+  },
+  {
+   "index": 99,
+   "offset": "0x6f9180",
+   "english": "Peacock Tear",
+   "french": "Larme du Paon",
+   "pixels": 64
+  },
+  {
+   "index": 100,
+   "offset": "0x6f9200",
+   "english": "Juri's Key",
+   "french": "Clé de Juri",
+   "pixels": 46
+  },
+  {
+   "index": 101,
+   "offset": "0x6f9280",
+   "english": "Canine God's +icon",
+   "french": "Chien divin",
+   "pixels": 55
+  },
+  {
+   "index": 102,
+   "offset": "0x6f9300",
+   "english": "Goldkin Nest",
+   "french": "Nid mange-or",
+   "pixels": 57
+  },
+  {
+   "index": 103,
+   "offset": "0x6f9380",
+   "english": "Gold Dust Pan",
+   "french": "Batée",
+   "pixels": 24
+  },
+  {
+   "index": 104,
+   "offset": "0x6f9400",
+   "english": "Gold Dust",
+   "french": "Poudre d'or",
+   "pixels": 51
+  },
+  {
+   "index": 105,
+   "offset": "0x6f9480",
+   "english": "Gold Voucher",
+   "french": "Bon d'or",
+   "pixels": 36
+  },
+  {
+   "index": 106,
+   "offset": "0x6f9500",
+   "english": "Sandglass",
+   "french": "Sablier",
+   "pixels": 29
+  },
+  {
+   "index": 107,
+   "offset": "0x6f9580",
+   "english": "Cool Pill",
+   "french": "Pil. fraîcheur",
+   "pixels": 57
+  },
+  {
+   "index": 108,
+   "offset": "0x6f9600",
+   "english": "Fool Pill",
+   "french": "Pilule du Sot",
+   "pixels": 53
+  },
+  {
+   "index": 109,
+   "offset": "0x6f9680",
+   "english": "Rusty Sword",
+   "french": "Épée rouillée",
+   "pixels": 55
+  },
+  {
+   "index": 110,
+   "offset": "0x6f9700",
+   "english": "Fire Bear +icon",
+   "french": "Ours de feu",
+   "pixels": 63
+  },
+  {
+   "index": 111,
+   "offset": "0x6f9780",
+   "english": "White Crane +icon",
+   "french": "Grue pâle",
+   "pixels": 51
+  },
+  {
+   "index": 112,
+   "offset": "0x6f9800",
+   "english": "Agni's Sword",
+   "french": "Épée d'Agni",
+   "pixels": 49
+  },
+  {
+   "index": 113,
+   "offset": "0x6f9880",
+   "english": "Higan's Sword",
+   "french": "Épée de Higan",
+   "pixels": 60
+  },
+  {
+   "index": 114,
+   "offset": "0x6f9900",
+   "english": "Hisui's Orb",
+   "french": "Orbe de Hisui",
+   "pixels": 58
+  },
+  {
+   "index": 115,
+   "offset": "0x6f9980",
+   "english": "Dragon's Orb",
+   "french": "Orbe Dragon",
+   "pixels": 55
+  },
+  {
+   "index": 116,
+   "offset": "0x6f9a00",
+   "english": "Tortoise's Orb",
+   "french": "Orbe Tortue",
+   "pixels": 55
+  },
+  {
+   "index": 117,
+   "offset": "0x6f9a80",
+   "english": "Subaru's Orb",
+   "french": "Orbe Subaru",
+   "pixels": 55
+  },
+  {
+   "index": 118,
+   "offset": "0x6f9b00",
+   "english": "Mirror of Time",
+   "french": "Miroir Temps",
+   "pixels": 56
+  },
+  {
+   "index": 119,
+   "offset": "0x6f9b80",
+   "english": "Mizuki's Mirror",
+   "french": "Miroir Mizuki",
+   "pixels": 54
+  },
+  {
+   "index": 120,
+   "offset": "0x6f9c00",
+   "english": "Ark's Mirror",
+   "french": "Miroir Arche",
+   "pixels": 55
+  },
+  {
+   "index": 121,
+   "offset": "0x6f9c80",
+   "english": "Tenjin's Mirror",
+   "french": "Miroir Tenjin",
+   "pixels": 55
+  },
+  {
+   "index": 122,
+   "offset": "0x6f9d00",
+   "english": "Flash Blade",
+   "french": "Lame éclair",
+   "pixels": 49
+  },
+  {
+   "index": 123,
+   "offset": "0x6f9d80",
+   "english": "Clinch Dagger",
+   "french": "Dague étreinte",
+   "pixels": 64
+  },
+  {
+   "index": 124,
+   "offset": "0x6f9e00",
+   "english": "Dark Katana",
+   "french": "Katana sombre",
+   "pixels": 64
+  },
+  {
+   "index": 125,
+   "offset": "0x6f9e80",
+   "english": "Piercing Spear",
+   "french": "Lance aiguë",
+   "pixels": 51
+  },
+  {
+   "index": 126,
+   "offset": "0x6f9f00",
+   "english": "Red Dragon +icon",
+   "french": "Drag. rouge",
+   "pixels": 61
+  },
+  {
+   "index": 127,
+   "offset": "0x6f9f80",
+   "english": "Mizuki's Katana",
+   "french": "Katana Mizuki",
+   "pixels": 58
+  },
+  {
+   "index": 128,
+   "offset": "0x6fa000",
+   "english": "Royal Dragon +icon",
+   "french": "Drag. royal",
+   "pixels": 58
+  },
+  {
+   "index": 129,
+   "offset": "0x6fa080",
+   "english": "Ashura Katana",
+   "french": "Katana Ashura",
+   "pixels": 64
+  },
+  {
+   "index": 130,
+   "offset": "0x6fa100",
+   "english": "Gleaming +icon",
+   "french": "Brillant",
+   "pixels": 40
+  },
+  {
+   "index": 131,
+   "offset": "0x6fa180",
+   "english": "Beheading +icon",
+   "french": "Décapiteur",
+   "pixels": 56
+  },
+  {
+   "index": 132,
+   "offset": "0x6fa200",
+   "english": "Roaring Blade",
+   "french": "Lame hurlante",
+   "pixels": 61
+  },
+  {
+   "index": 133,
+   "offset": "0x6fa280",
+   "english": "Double-edged +icon",
+   "french": "Bitranchant",
+   "pixels": 60
+  },
+  {
+   "index": 134,
+   "offset": "0x6fa300",
+   "english": "Gruidae +icon",
+   "french": "Grue",
+   "pixels": 30
+  },
+  {
+   "index": 135,
+   "offset": "0x6fa380",
+   "english": "Life-saving +icon",
+   "french": "Salvateur",
+   "pixels": 51
+  },
+  {
+   "index": 136,
+   "offset": "0x6fa400",
+   "english": "Gold-clad Fan",
+   "french": "Éventail doré",
+   "pixels": 57
+  },
+  {
+   "index": 137,
+   "offset": "0x6fa480",
+   "english": "Tearful Dagger",
+   "french": "Dague larmes",
+   "pixels": 57
+  },
+  {
+   "index": 138,
+   "offset": "0x6fa500",
+   "english": "Ice Blade",
+   "french": "Lame de glace",
+   "pixels": 61
+  },
+  {
+   "index": 139,
+   "offset": "0x6fa580",
+   "english": "Thunder Blade",
+   "french": "Lame tonnerre",
+   "pixels": 64
+  },
+  {
+   "index": 140,
+   "offset": "0x6fa600",
+   "english": "Princess Whip",
+   "french": "Fouet princier",
+   "pixels": 62
+  },
+  {
+   "index": 141,
+   "offset": "0x6fa680",
+   "english": "Storm Blade",
+   "french": "Lame tempête",
+   "pixels": 59
+  },
+  {
+   "index": 142,
+   "offset": "0x6fa700",
+   "english": "Garden Shears",
+   "french": "Cisailles",
+   "pixels": 33
+  },
+  {
+   "index": 143,
+   "offset": "0x6fa780",
+   "english": "Aegis Dagger",
+   "french": "Dague Égide",
+   "pixels": 51
+  },
+  {
+   "index": 144,
+   "offset": "0x6fa800",
+   "english": "Night Rain +icon",
+   "french": "Pluie de nuit",
+   "pixels": 63
+  },
+  {
+   "index": 145,
+   "offset": "0x6fa880",
+   "english": "Dozing Dagger",
+   "french": "Dague sommeil",
+   "pixels": 60
+  },
+  {
+   "index": 146,
+   "offset": "0x6fa900",
+   "english": "Steel Rake",
+   "french": "Râteau d'acier",
+   "pixels": 62
+  },
+  {
+   "index": 147,
+   "offset": "0x6fa980",
+   "english": "Carving Knife",
+   "french": "Trancheur",
+   "pixels": 46
+  },
+  {
+   "index": 148,
+   "offset": "0x6faa00",
+   "english": "Bent Katana",
+   "french": "Katana tordu",
+   "pixels": 57
+  },
+  {
+   "index": 149,
+   "offset": "0x6faa80",
+   "english": "Almighty Knife",
+   "french": "Cout. suprême",
+   "pixels": 61
+  },
+  {
+   "index": 150,
+   "offset": "0x6fab00",
+   "english": "Lumber Axe",
+   "french": "Hache à bois",
+   "pixels": 55
+  },
+  {
+   "index": 151,
+   "offset": "0x6fab80",
+   "english": "Blackened +icon",
+   "french": "Noirci",
+   "pixels": 35
+  },
+  {
+   "index": 152,
+   "offset": "0x6fac00",
+   "english": "Lively Dagger",
+   "french": "Dague vive",
+   "pixels": 46
+  },
+  {
+   "index": 153,
+   "offset": "0x6fac80",
+   "english": "Wooden Spear",
+   "french": "Lance de bois",
+   "pixels": 60
+  },
+  {
+   "index": 154,
+   "offset": "0x6fad00",
+   "english": "Wooden Katana",
+   "french": "Katana de bois",
+   "pixels": 64
+  },
+  {
+   "index": 155,
+   "offset": "0x6fad80",
+   "english": "Bushido Katana",
+   "french": "Kat. Bushido",
+   "pixels": 52
+  },
+  {
+   "index": 156,
+   "offset": "0x6fae00",
+   "english": "One-Strike +icon",
+   "french": "Coup unique",
+   "pixels": 61
+  },
+  {
+   "index": 157,
+   "offset": "0x6fae80",
+   "english": "Gasp Katana",
+   "french": "Katana souffle",
+   "pixels": 63
+  },
+  {
+   "index": 158,
+   "offset": "0x6faf00",
+   "english": "Tainted Blade",
+   "french": "Lame souillée",
+   "pixels": 56
+  },
+  {
+   "index": 159,
+   "offset": "0x6faf80",
+   "english": "Yaksha Katana",
+   "french": "Katana Yaksha",
+   "pixels": 64
+  },
+  {
+   "index": 160,
+   "offset": "0x6fb000",
+   "english": "Toy Katana",
+   "french": "Katana jouet",
+   "pixels": 55
+  },
+  {
+   "index": 161,
+   "offset": "0x6fb080",
+   "english": "Bee Blade",
+   "french": "Lame abeille",
+   "pixels": 51
+  },
+  {
+   "index": 162,
+   "offset": "0x6fb100",
+   "english": "Blade Armor",
+   "french": "Armure lames",
+   "pixels": 59
+  },
+  {
+   "index": 163,
+   "offset": "0x6fb180",
+   "english": "Gem Star Robe",
+   "french": "Robe étoile",
+   "pixels": 47
+  },
+  {
+   "index": 164,
+   "offset": "0x6fb200",
+   "english": "Water Mirror +icon",
+   "french": "Miroir d'eau",
+   "pixels": 61
+  },
+  {
+   "index": 165,
+   "offset": "0x6fb280",
+   "english": "Light Robe",
+   "french": "Robe lumière",
+   "pixels": 54
+  },
+  {
+   "index": 166,
+   "offset": "0x6fb300",
+   "english": "Royal Dragon +icon",
+   "french": "Drag. royal",
+   "pixels": 58
+  },
+  {
+   "index": 167,
+   "offset": "0x6fb380",
+   "english": "Angelic Kimono",
+   "french": "Kimono ange",
+   "pixels": 52
+  },
+  {
+   "index": 168,
+   "offset": "0x6fb400",
+   "english": "Terrain Coat",
+   "french": "Mant. terrain",
+   "pixels": 57
+  },
+  {
+   "index": 169,
+   "offset": "0x6fb480",
+   "english": "Evening Dew +icon",
+   "french": "Rosée soir",
+   "pixels": 56
+  },
+  {
+   "index": 170,
+   "offset": "0x6fb500",
+   "english": "Renowned +icon",
+   "french": "Renommée",
+   "pixels": 52
+  },
+  {
+   "index": 171,
+   "offset": "0x6fb580",
+   "english": "Stardust Coat",
+   "french": "Mant. d'astres",
+   "pixels": 62
+  },
+  {
+   "index": 172,
+   "offset": "0x6fb600",
+   "english": "Zephyr Robe",
+   "french": "Robe zéphyr",
+   "pixels": 54
+  },
+  {
+   "index": 173,
+   "offset": "0x6fb680",
+   "english": "Memorial +icon",
+   "french": "Souvenir",
+   "pixels": 47
+  },
+  {
+   "index": 174,
+   "offset": "0x6fb700",
+   "english": "Setting Sun +icon",
+   "french": "Couchant",
+   "pixels": 49
+  },
+  {
+   "index": 175,
+   "offset": "0x6fb780",
+   "english": "Mist Robe",
+   "french": "Robe de brume",
+   "pixels": 64
+  },
+  {
+   "index": 176,
+   "offset": "0x6fb800",
+   "english": "Silver Clothes",
+   "french": "Vêt. d'argent",
+   "pixels": 56
+  },
+  {
+   "index": 177,
+   "offset": "0x6fb880",
+   "english": "Mirror Robe",
+   "french": "Robe miroir",
+   "pixels": 49
+  },
+  {
+   "index": 178,
+   "offset": "0x6fb900",
+   "english": "Princess +icon",
+   "french": "Princesse",
+   "pixels": 52
+  },
+  {
+   "index": 179,
+   "offset": "0x6fb980",
+   "english": "Fog Robe",
+   "french": "Robe brume",
+   "pixels": 50
+  },
+  {
+   "index": 180,
+   "offset": "0x6fba00",
+   "english": "Green Leaf +icon",
+   "french": "Feuille",
+   "pixels": 36
+  },
+  {
+   "index": 181,
+   "offset": "0x6fba80",
+   "english": "Willful Armor",
+   "french": "Arm. obstinée",
+   "pixels": 59
+  },
+  {
+   "index": 182,
+   "offset": "0x6fbb00",
+   "english": "Golden Armor",
+   "french": "Armure d'or",
+   "pixels": 53
+  },
+  {
+   "index": 183,
+   "offset": "0x6fbb80",
+   "english": "Foliage Coat",
+   "french": "Mant. feuillage",
+   "pixels": 61
+  },
+  {
+   "index": 184,
+   "offset": "0x6fbc00",
+   "english": "Fire-warding +icon",
+   "french": "Pare-feu",
+   "pixels": 48
+  },
+  {
+   "index": 185,
+   "offset": "0x6fbc80",
+   "english": "Red Tin Armor",
+   "french": "Arm. étain",
+   "pixels": 44
+  },
+  {
+   "index": 186,
+   "offset": "0x6fbd00",
+   "english": "Maiden's +icon",
+   "french": "Jeune fille",
+   "pixels": 53
+  },
+  {
+   "index": 187,
+   "offset": "0x6fbd80",
+   "english": "Mushroom +icon",
+   "french": "Champignon",
+   "pixels": 58
+  },
+  {
+   "index": 188,
+   "offset": "0x6fbe00",
+   "english": "Gallant Kimono",
+   "french": "Kimono vaillant",
+   "pixels": 62
+  },
+  {
+   "index": 189,
+   "offset": "0x6fbe80",
+   "english": "Priestly Robe",
+   "french": "Robe prêtre",
+   "pixels": 53
+  },
+  {
+   "index": 190,
+   "offset": "0x6fbf00",
+   "english": "Chain Kimono",
+   "french": "Kimono mailles",
+   "pixels": 59
+  },
+  {
+   "index": 191,
+   "offset": "0x6fbf80",
+   "english": "See-through +icon",
+   "french": "Diaphane",
+   "pixels": 47
+  },
+  {
+   "index": 192,
+   "offset": "0x6fc000",
+   "english": "Shinobi Clothes",
+   "french": "Vêt. shinobi",
+   "pixels": 49
+  },
+  {
+   "index": 193,
+   "offset": "0x6fc080",
+   "english": "Hisui's Robe",
+   "french": "Robe de Hisui",
+   "pixels": 57
+  },
+  {
+   "index": 194,
+   "offset": "0x6fc100",
+   "english": "Leather +icon",
+   "french": "Cuir",
+   "pixels": 27
+  },
+  {
+   "index": 195,
+   "offset": "0x6fc180",
+   "english": "Hemp Clothes",
+   "french": "Vêt. chanvre",
+   "pixels": 55
+  },
+  {
+   "index": 196,
+   "offset": "0x6fc200",
+   "english": "Rags",
+   "french": "Haillons",
+   "pixels": 31
+  },
+  {
+   "index": 197,
+   "offset": "0x6fc280",
+   "english": "Breakalegor +icon",
+   "french": "Brise-jambe",
+   "pixels": 60
+  },
+  {
+   "index": 198,
+   "offset": "0x6fc300",
+   "english": "Imported Coat",
+   "french": "Mant. importé",
+   "pixels": 58
+  },
+  {
+   "index": 199,
+   "offset": "0x6fc380",
+   "english": "*3*4-Layered +icon",
+   "french": "Junihitoe",
+   "pixels": 47
+  },
+  {
+   "index": 200,
+   "offset": "0x6fc400",
+   "english": "Chinese Dress",
+   "french": "Robe chinoise",
+   "pixels": 58
+  },
+  {
+   "index": 201,
+   "offset": "0x6fc480",
+   "english": "Paired Coat",
+   "french": "Mant. assorti",
+   "pixels": 57
+  },
+  {
+   "index": 202,
+   "offset": "0x6fc500",
+   "english": "Mortar Armor",
+   "french": "Arm. mortier",
+   "pixels": 55
+  },
+  {
+   "index": 203,
+   "offset": "0x6fc580",
+   "english": "Weird Wood +icon",
+   "french": "Bois bizarre",
+   "pixels": 63
+  },
+  {
+   "index": 204,
+   "offset": "0x6fc600",
+   "english": "Fire Bear +icon",
+   "french": "Ours de feu",
+   "pixels": 63
+  },
+  {
+   "index": 205,
+   "offset": "0x6fc680",
+   "english": "Peacock +icon",
+   "french": "Paon",
+   "pixels": 30
+  },
+  {
+   "index": 206,
+   "offset": "0x6fc700",
+   "english": "Crane +icon",
+   "french": "Grue",
+   "pixels": 30
+  },
+  {
+   "index": 207,
+   "offset": "0x6fc780",
+   "english": "Turtle +icon",
+   "french": "Tortue",
+   "pixels": 40
+  },
+  {
+   "index": 208,
+   "offset": "0x6fc800",
+   "english": "Canine God +icon",
+   "french": "Chien divin",
+   "pixels": 55
+  },
+  {
+   "index": 209,
+   "offset": "0x6fc880",
+   "english": "Dragon +icon",
+   "french": "Dragon",
+   "pixels": 40
+  },
+  {
+   "index": 210,
+   "offset": "0x6fc900",
+   "english": "Air Pouch",
+   "french": "Poche d'air",
+   "pixels": 48
+  },
+  {
+   "index": 211,
+   "offset": "0x6fc980",
+   "english": "Crane's Robe",
+   "french": "Robe de Grue",
+   "pixels": 58
+  },
+  {
+   "index": 212,
+   "offset": "0x6fca00",
+   "english": "Golden Badge",
+   "french": "Insigne d'or",
+   "pixels": 52
+  },
+  {
+   "index": 213,
+   "offset": "0x6fca80",
+   "english": "Purple Hood",
+   "french": "Cap. mauve",
+   "pixels": 47
+  },
+  {
+   "index": 214,
+   "offset": "0x6fcb00",
+   "english": "Black Hood",
+   "french": "Capuche noire",
+   "pixels": 61
+  },
+  {
+   "index": 215,
+   "offset": "0x6fcb80",
+   "english": "Red Hood",
+   "french": "Capuche rouge",
+   "pixels": 64
+  },
+  {
+   "index": 216,
+   "offset": "0x6fcc00",
+   "english": "Cat Eared Hood",
+   "french": "Capuche chat",
+   "pixels": 58
+  },
+  {
+   "index": 217,
+   "offset": "0x6fcc80",
+   "english": "Disaster Hood",
+   "french": "Cap. désastre",
+   "pixels": 60
+  },
+  {
+   "index": 218,
+   "offset": "0x6fcd00",
+   "english": "Shady Mask",
+   "french": "Masque louche",
+   "pixels": 62
+  },
+  {
+   "index": 219,
+   "offset": "0x6fcd80",
+   "english": "Fair Mask",
+   "french": "Beau masque",
+   "pixels": 55
+  },
+  {
+   "index": 220,
+   "offset": "0x6fce00",
+   "english": "Silly Face Mask",
+   "french": "Masque drôle",
+   "pixels": 57
+  },
+  {
+   "index": 221,
+   "offset": "0x6fce80",
+   "english": "Ugly Mask",
+   "french": "Masque hideux",
+   "pixels": 63
+  },
+  {
+   "index": 222,
+   "offset": "0x6fcf00",
+   "english": "Shitty Mask",
+   "french": "Masque pourri",
+   "pixels": 62
+  },
+  {
+   "index": 223,
+   "offset": "0x6fcf80",
+   "english": "Crown",
+   "french": "Couronne",
+   "pixels": 40
+  },
+  {
+   "index": 224,
+   "offset": "0x6fd000",
+   "english": "Silk Hat",
+   "french": "Chap. de soie",
+   "pixels": 57
+  },
+  {
+   "index": 225,
+   "offset": "0x6fd080",
+   "english": "Gold Dust Pot",
+   "french": "Pot d'or",
+   "pixels": 35
+  },
+  {
+   "index": 226,
+   "offset": "0x6fd100",
+   "english": "Iron Helmet",
+   "french": "Casque de fer",
+   "pixels": 62
+  },
+  {
+   "index": 227,
+   "offset": "0x6fd180",
+   "english": "Wind Helmet",
+   "french": "Casq. de vent",
+   "pixels": 59
+  },
+  {
+   "index": 228,
+   "offset": "0x6fd200",
+   "english": "Bolt Helmet",
+   "french": "Casq. foudre",
+   "pixels": 55
+  },
+  {
+   "index": 229,
+   "offset": "0x6fd280",
+   "english": "Fire Helmet",
+   "french": "Casque de feu",
+   "pixels": 62
+  },
+  {
+   "index": 230,
+   "offset": "0x6fd300",
+   "english": "Water Helmet",
+   "french": "Casque d'eau",
+   "pixels": 56
+  },
+  {
+   "index": 231,
+   "offset": "0x6fd380",
+   "english": "Bird Helmet",
+   "french": "Casq. d'oiseau",
+   "pixels": 60
+  },
+  {
+   "index": 232,
+   "offset": "0x6fd400",
+   "english": "Crab Helmet",
+   "french": "Casq. crabe",
+   "pixels": 51
+  },
+  {
+   "index": 233,
+   "offset": "0x6fd480",
+   "english": "Shitty Helmet",
+   "french": "Casque pourri",
+   "pixels": 61
+  },
+  {
+   "index": 234,
+   "offset": "0x6fd500",
+   "english": "Apricot Helmet",
+   "french": "Casq. abricot",
+   "pixels": 57
+  },
+  {
+   "index": 235,
+   "offset": "0x6fd580",
+   "english": "Peach Hairpin",
+   "french": "Épingle pêche",
+   "pixels": 58
+  },
+  {
+   "index": 236,
+   "offset": "0x6fd600",
+   "english": "Sakura Hairpin",
+   "french": "Épingle sakura",
+   "pixels": 63
+  },
+  {
+   "index": 237,
+   "offset": "0x6fd680",
+   "english": "Fuji Hairpin",
+   "french": "Épingle glycine",
+   "pixels": 62
+  },
+  {
+   "index": 238,
+   "offset": "0x6fd700",
+   "english": "Autumn Comb",
+   "french": "Peigne autom.",
+   "pixels": 58
+  },
+  {
+   "index": 239,
+   "offset": "0x6fd780",
+   "english": "Maple Comb",
+   "french": "Peigne érable",
+   "pixels": 58
+  },
+  {
+   "index": 240,
+   "offset": "0x6fd800",
+   "english": "Sage's Cap",
+   "french": "Bonnet sage",
+   "pixels": 53
+  },
+  {
+   "index": 241,
+   "offset": "0x6fd880",
+   "english": "Stone Pendant",
+   "french": "Pend. pierre",
+   "pixels": 53
+  },
+  {
+   "index": 242,
+   "offset": "0x6fd900",
+   "english": "Star Pendant",
+   "french": "Pend. étoile",
+   "pixels": 49
+  },
+  {
+   "index": 243,
+   "offset": "0x6fd980",
+   "english": "Floral Pendant",
+   "french": "Pend. fleuri",
+   "pixels": 49
+  },
+  {
+   "index": 244,
+   "offset": "0x6fda00",
+   "english": "Lunar Pendant",
+   "french": "Pend. lunaire",
+   "pixels": 55
+  },
+  {
+   "index": 245,
+   "offset": "0x6fda80",
+   "english": "Dream Pendant",
+   "french": "Pend. de rêve",
+   "pixels": 60
+  },
+  {
+   "index": 246,
+   "offset": "0x6fdb00",
+   "english": "Love Pendant",
+   "french": "Pend. d'amour",
+   "pixels": 59
+  },
+  {
+   "index": 247,
+   "offset": "0x6fdb80",
+   "english": "Floral Earrings",
+   "french": "Boucles fleur",
+   "pixels": 57
+  },
+  {
+   "index": 248,
+   "offset": "0x6fdc00",
+   "english": "Wind Ring",
+   "french": "Anneau vent",
+   "pixels": 54
+  },
+  {
+   "index": 249,
+   "offset": "0x6fdc80",
+   "english": "Thunder Ring",
+   "french": "Anneau orage",
+   "pixels": 60
+  },
+  {
+   "index": 250,
+   "offset": "0x6fdd00",
+   "english": "Fire Ring",
+   "french": "Anneau du feu",
+   "pixels": 63
+  },
+  {
+   "index": 251,
+   "offset": "0x6fdd80",
+   "english": "Water Ring",
+   "french": "Anneau eau",
+   "pixels": 50
+  },
+  {
+   "index": 252,
+   "offset": "0x6fde00",
+   "english": "Mechanical Ring",
+   "french": "Anneau méca",
+   "pixels": 56
+  },
+  {
+   "index": 253,
+   "offset": "0x6fde80",
+   "english": "Judgment Ring",
+   "french": "Anneau juge",
+   "pixels": 53
+  },
+  {
+   "index": 254,
+   "offset": "0x6fdf00",
+   "english": "Fortune Ring",
+   "french": "Anneau sort",
+   "pixels": 54
+  },
+  {
+   "index": 255,
+   "offset": "0x6fdf80",
+   "english": "Soul Ring",
+   "french": "Anneau âme",
+   "pixels": 51
+  },
+  {
+   "index": 256,
+   "offset": "0x6fe000",
+   "english": "Pearl Ring",
+   "french": "Anneau perle",
+   "pixels": 57
+  },
+  {
+   "index": 257,
+   "offset": "0x6fe080",
+   "english": "Ruin Ring",
+   "french": "Anneau ruine",
+   "pixels": 57
+  },
+  {
+   "index": 258,
+   "offset": "0x6fe100",
+   "english": "Tranquil Ring",
+   "french": "Anneau calme",
+   "pixels": 58
+  },
+  {
+   "index": 259,
+   "offset": "0x6fe180",
+   "english": "Tempting Ring",
+   "french": "Anneau envie",
+   "pixels": 57
+  },
+  {
+   "index": 260,
+   "offset": "0x6fe200",
+   "english": "Wavering Ring",
+   "french": "Anneau doute",
+   "pixels": 59
+  },
+  {
+   "index": 261,
+   "offset": "0x6fe280",
+   "english": "Hisui's Ring",
+   "french": "Anneau Hisui",
+   "pixels": 54
+  },
+  {
+   "index": 262,
+   "offset": "0x6fe300",
+   "english": "Wind Bracelet",
+   "french": "Brac. du vent",
+   "pixels": 59
+  },
+  {
+   "index": 263,
+   "offset": "0x6fe380",
+   "english": "Bolt Bracelet",
+   "french": "Brac. foudre",
+   "pixels": 55
+  },
+  {
+   "index": 264,
+   "offset": "0x6fe400",
+   "english": "Fire Bracelet",
+   "french": "Brac. du feu",
+   "pixels": 54
+  },
+  {
+   "index": 265,
+   "offset": "0x6fe480",
+   "english": "Water Bracelet",
+   "french": "Brac. de l'eau",
+   "pixels": 59
+  },
+  {
+   "index": 266,
+   "offset": "0x6fe500",
+   "english": "King's Bracelet",
+   "french": "Brac. du roi",
+   "pixels": 52
+  },
+  {
+   "index": 267,
+   "offset": "0x6fe580",
+   "english": "Swordsman's +icon",
+   "french": "Sabreur",
+   "pixels": 44
+  },
+  {
+   "index": 268,
+   "offset": "0x6fe600",
+   "english": "Blade Gauntlet",
+   "french": "Gantelet lame",
+   "pixels": 57
+  },
+  {
+   "index": 269,
+   "offset": "0x6fe680",
+   "english": "Claw Gauntlet",
+   "french": "Gantelet griffe",
+   "pixels": 64
+  },
+  {
+   "index": 270,
+   "offset": "0x6fe700",
+   "english": "Power Gauntlet",
+   "french": "Gant. de force",
+   "pixels": 63
+  },
+  {
+   "index": 271,
+   "offset": "0x6fe780",
+   "english": "Body Sash",
+   "french": "Ceint. corps",
+   "pixels": 52
+  },
+  {
+   "index": 272,
+   "offset": "0x6fe800",
+   "english": "Tech Sash",
+   "french": "Ceint. tech.",
+   "pixels": 48
+  },
+  {
+   "index": 273,
+   "offset": "0x6fe880",
+   "english": "Power Sash",
+   "french": "Ceint. force",
+   "pixels": 51
+  },
+  {
+   "index": 274,
+   "offset": "0x6fe900",
+   "english": "Defense Sash",
+   "french": "Ceint. garde",
+   "pixels": 52
+  },
+  {
+   "index": 275,
+   "offset": "0x6fe980",
+   "english": "Winged Sandals",
+   "french": "Sand. ailées",
+   "pixels": 50
+  },
+  {
+   "index": 276,
+   "offset": "0x6fea00",
+   "english": "Comet Shoes",
+   "french": "Soul. comète",
+   "pixels": 53
+  },
+  {
+   "index": 277,
+   "offset": "0x6fea80",
+   "english": "Peach Sandals",
+   "french": "Sand. pêche",
+   "pixels": 51
+  },
+  {
+   "index": 278,
+   "offset": "0x6feb00",
+   "english": "Gale Sandals",
+   "french": "Sand. du vent",
+   "pixels": 59
+  },
+  {
+   "index": 279,
+   "offset": "0x6feb80",
+   "english": "Silk Socks",
+   "french": "Chauss. soie",
+   "pixels": 53
+  },
+  {
+   "index": 280,
+   "offset": "0x6fec00",
+   "english": "Trendy Socks",
+   "french": "Chauss. mode",
+   "pixels": 57
+  },
+  {
+   "index": 281,
+   "offset": "0x6fec80",
+   "english": "Travel Sandals",
+   "french": "Sand. voyage",
+   "pixels": 56
+  },
+  {
+   "index": 282,
+   "offset": "0x6fed00",
+   "english": "Straw Sandals",
+   "french": "Sand. de paille",
+   "pixels": 61
+  },
+  {
+   "index": 283,
+   "offset": "0x6fed80",
+   "english": "Bootleg Boots",
+   "french": "Bottes pirates",
+   "pixels": 63
+  },
+  {
+   "index": 284,
+   "offset": "0x6fee00",
+   "english": "Wooden Clogs",
+   "french": "Socques bois",
+   "pixels": 56
+  },
+  {
+   "index": 285,
+   "offset": "0x6fee80",
+   "english": "Iron Clogs",
+   "french": "Socques fer",
+   "pixels": 53
+  },
+  {
+   "index": 286,
+   "offset": "0x6fef00",
+   "english": "Princess Heels",
+   "french": "Escarp. reine",
+   "pixels": 58
+  },
+  {
+   "index": 287,
+   "offset": "0x6fef80",
+   "english": "Safety Boots",
+   "french": "Bottes sûres",
+   "pixels": 57
+  },
+  {
+   "index": 288,
+   "offset": "0x6ff000",
+   "english": "Pair Sandals",
+   "french": "Sand. jumelles",
+   "pixels": 59
+  },
+  {
+   "index": 289,
+   "offset": "0x6ff080",
+   "english": "Snow Shoes",
+   "french": "Raquettes",
+   "pixels": 43
+  },
+  {
+   "index": 290,
+   "offset": "0x6ff100",
+   "english": "Shitty Shoes",
+   "french": "Savates nulles",
+   "pixels": 62
+  },
+  {
+   "index": 291,
+   "offset": "0x6ff180",
+   "english": "Steel Fan",
+   "french": "Éventail acier",
+   "pixels": 59
+  },
+  {
+   "index": 292,
+   "offset": "0x6ff200",
+   "english": "Wooden Fan",
+   "french": "Éventail bois",
+   "pixels": 54
+  },
+  {
+   "index": 293,
+   "offset": "0x6ff280",
+   "english": "White Scarf",
+   "french": "Foulard blanc",
+   "pixels": 58
+  },
+  {
+   "index": 294,
+   "offset": "0x6ff300",
+   "english": "Bubble Scarf",
+   "french": "Écharpe bulles",
+   "pixels": 63
+  },
+  {
+   "index": 295,
+   "offset": "0x6ff380",
+   "english": "Yellow Scarf",
+   "french": "Écharpe jaune",
+   "pixels": 62
+  },
+  {
+   "index": 296,
+   "offset": "0x6ff400",
+   "english": "Backscratcher",
+   "french": "Gratte-dos",
+   "pixels": 47
+  },
+  {
+   "index": 297,
+   "offset": "0x6ff480",
+   "english": "Warding Curio",
+   "french": "Bibelot garde",
+   "pixels": 57
+  },
+  {
+   "index": 298,
+   "offset": "0x6ff500",
+   "english": "Chestnut Curio",
+   "french": "Bibelot marron",
+   "pixels": 63
+  },
+  {
+   "index": 299,
+   "offset": "0x6ff580",
+   "english": "Knit Sweater",
+   "french": "Pull tricoté",
+   "pixels": 48
+  },
+  {
+   "index": 300,
+   "offset": "0x6ff600",
+   "english": "Knit Cap",
+   "french": "Bonnet tricoté",
+   "pixels": 63
+  },
+  {
+   "index": 301,
+   "offset": "0x6ff680",
+   "english": "Knit Gloves",
+   "french": "Gants tricotés",
+   "pixels": 63
+  },
+  {
+   "index": 302,
+   "offset": "0x6ff700",
+   "english": "Knit Muffler",
+   "french": "Écharpe tricot",
+   "pixels": 64
+  }
+ ]
+}
