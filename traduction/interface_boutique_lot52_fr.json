@@ -1,0 +1,362 @@
+[
+ {
+  "offset": "0x6d0000",
+  "tiles": 16,
+  "english": "Item Shop",
+  "french": "Magasin d'objets",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0100",
+  "tiles": 16,
+  "english": "Weapon Shop",
+  "french": "Boutique d'armes",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0200",
+  "tiles": 16,
+  "english": "Tea House",
+  "french": "Maison de thé",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0300",
+  "tiles": 16,
+  "english": "Singles Tea House",
+  "french": "Thé des célibs",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0400",
+  "tiles": 16,
+  "english": "Hatchery",
+  "french": "Couvoir",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0500",
+  "tiles": 16,
+  "english": "Shrine Office",
+  "french": "Bureau shinto",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0600",
+  "tiles": 16,
+  "english": "Pharmacy",
+  "french": "Pharmacie",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0700",
+  "tiles": 16,
+  "english": "Peddler",
+  "french": "Colporteur",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0800",
+  "tiles": 16,
+  "english": "Skedaddle!",
+  "french": "Filons !",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0900",
+  "tiles": 16,
+  "english": "Armor Store",
+  "french": "Magasin d'armures",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0a00",
+  "tiles": 16,
+  "english": "Weapon Store",
+  "french": "Magasin d'armes",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0b00",
+  "tiles": 16,
+  "english": "Manju Shop",
+  "french": "Boutique de manju",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0c00",
+  "tiles": 16,
+  "english": "Chestnuttery",
+  "french": "Marronnerie",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0e00",
+  "tiles": 16,
+  "english": "General Store",
+  "french": "Épicerie générale",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d0f00",
+  "tiles": 16,
+  "english": "Odds and Ends",
+  "french": "Bric-à-brac",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1000",
+  "tiles": 16,
+  "english": "Liquor Store",
+  "french": "Caviste",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1100",
+  "tiles": 16,
+  "english": "Crab Store",
+  "french": "Boutique crabes",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1200",
+  "tiles": 16,
+  "english": "Souvenir Shop",
+  "french": "Boutique souvenir",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1300",
+  "tiles": 16,
+  "english": "Pharmacist",
+  "french": "Pharmacien",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1400",
+  "tiles": 16,
+  "english": "Toy Store",
+  "french": "Magasin de jouets",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1500",
+  "tiles": 16,
+  "english": "Talisman Shop",
+  "french": "Talismans",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1600",
+  "tiles": 16,
+  "english": "Necklace Shop",
+  "french": "Boutique colliers",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1700",
+  "tiles": 16,
+  "english": "Fan Shop",
+  "french": "Éventails",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1800",
+  "tiles": 16,
+  "english": "Ring Shop",
+  "french": "Boutique bagues",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1900",
+  "tiles": 16,
+  "english": "Shady Shop",
+  "french": "Boutique louche",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1a00",
+  "tiles": 16,
+  "english": "Powder Shop",
+  "french": "Boutique poudres",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1b00",
+  "tiles": 16,
+  "english": "May Shop",
+  "french": "Chez May",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1c00",
+  "tiles": 16,
+  "english": "Dango Shop",
+  "french": "Boutique de dango",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1d00",
+  "tiles": 16,
+  "english": "Bakuzan's Shop",
+  "french": "Chez Bakuzan",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1e00",
+  "tiles": 16,
+  "english": "Great Weapon Shop",
+  "french": "Grande armurerie",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6d1f00",
+  "tiles": 16,
+  "english": "Imada's Shop",
+  "french": "Chez Imada",
+  "align": "left",
+  "limit_px": 80,
+  "screen": "boutique : nom"
+ },
+ {
+  "offset": "0x6f4700",
+  "tiles": 2,
+  "english": "Buy",
+  "french": "Ach",
+  "align": "left",
+  "limit_px": 16,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4720",
+  "tiles": 2,
+  "english": "Sell",
+  "french": "Vte",
+  "align": "left",
+  "limit_px": 16,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4740",
+  "tiles": 5,
+  "english": "Welcome!",
+  "french": "Salut !",
+  "align": "left",
+  "limit_px": 40,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4790",
+  "tiles": 11,
+  "english": "How can I help you?",
+  "french": "Je peux t'aider ?",
+  "align": "left",
+  "limit_px": 88,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4c30",
+  "tiles": 7,
+  "english": "Cash on Hand",
+  "french": "Argent",
+  "align": "left",
+  "limit_px": 56,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4d30",
+  "tiles": 4,
+  "english": "Owned",
+  "french": "Stock",
+  "align": "left",
+  "limit_px": 32,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4ab0",
+  "tiles": 3,
+  "english": "Items",
+  "french": "Objet",
+  "align": "right",
+  "limit_px": 24,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4ae0",
+  "tiles": 5,
+  "english": "Weapons",
+  "french": "Armes",
+  "align": "right",
+  "limit_px": 40,
+  "screen": "boutique : interface"
+ },
+ {
+  "offset": "0x6f4900",
+  "tiles": 4,
+  "english": "Attack",
+  "french": "Attaq.",
+  "align": "left",
+  "limit_px": 32,
+  "screen": "boutique : interface"
+ }
+]
