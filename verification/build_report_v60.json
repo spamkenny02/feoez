@@ -1,0 +1,27 @@
+{
+ "version": "V60",
+ "base": "V59",
+ "strips": 2,
+ "ips_sha256": "7891304c6df1524c334f16b9379a621a53a62dd5d3ef082a2813741306a30f69",
+ "rom_sha256": "e709b16c97e34dee8ea869f725386a1bd22a4dc05d86445339ddfb39e8d3aa95",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/ecran_sauvegarde_v60_*.png",
+ "entries": [
+  {
+   "offset": "0x6d2000",
+   "english": "Rank",
+   "french": "Rang",
+   "pixels": 20,
+   "limit_px": 24,
+   "screen": "Sauvegarde : panneau de la partie"
+  },
+  {
+   "offset": "0x6d2250",
+   "english": "Save File",
+   "french": "Sauver",
+   "pixels": 30,
+   "limit_px": 40,
+   "screen": "Sauvegarde : titre"
+  }
+ ]
+}

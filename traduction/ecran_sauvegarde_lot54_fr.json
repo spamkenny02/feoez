@@ -1,0 +1,20 @@
+[
+ {
+  "offset": "0x6d2000",
+  "tiles": 3,
+  "english": "Rank",
+  "french": "Rang",
+  "align": "left",
+  "limit_px": 24,
+  "screen": "Sauvegarde : panneau de la partie"
+ },
+ {
+  "offset": "0x6d2250",
+  "tiles": 5,
+  "english": "Save File",
+  "french": "Sauver",
+  "align": "left",
+  "limit_px": 40,
+  "screen": "Sauvegarde : titre"
+ }
+]
