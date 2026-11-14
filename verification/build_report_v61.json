@@ -1,0 +1,223 @@
+{
+ "version": "V61",
+ "base": "V60",
+ "places": 21,
+ "replaced_occurrences": 43,
+ "ips_sha256": "80c699599626f5879ed54cb771220a7f3d3e1befbbb7aa5eb4f95064a0f4d12c",
+ "rom_sha256": "2b131e69b2504729a3a59cdf491d3e5aa797a205bd1376d76b97a35dd616c40b",
+ "ips_roundtrip": true,
+ "runtime_validation": "capture Snes9x : verification/lieu_sauvegarde_v61.png",
+ "entries": [
+  {
+   "english": "Fireshadow Village",
+   "french_old": "Village de l’Ombre du Feu",
+   "french_new": "Village Ombre-Feu",
+   "offsets": [
+    "0x6c4b02",
+    "0x6c51d2"
+   ],
+   "bytes": 25
+  },
+  {
+   "english": "Firepoint Village",
+   "french_old": "Village de la Pointe du Feu",
+   "french_new": "Village Pointe-Feu",
+   "offsets": [
+    "0x6c4b4f",
+    "0x6c521f"
+   ],
+   "bytes": 27
+  },
+  {
+   "english": "Flame Shrine",
+   "french_old": "Sanctuaire de la Flamme",
+   "french_new": "Sanct. de la Flamme",
+   "offsets": [
+    "0x6c4b6b",
+    "0x6c523b"
+   ],
+   "bytes": 23
+  },
+  {
+   "english": "Fire Bear Shrine",
+   "french_old": "Sanctuaire de l’Ours de Feu",
+   "french_new": "Sanct. Ours de Feu",
+   "offsets": [
+    "0x6c4b83",
+    "0x6c5253"
+   ],
+   "bytes": 27
+  },
+  {
+   "english": "Ice Mountain Village",
+   "french_old": "Village du Mont de Glace",
+   "french_new": "Village Mont-Glace",
+   "offsets": [
+    "0x6c4bad",
+    "0x6c527d"
+   ],
+   "bytes": 24
+  },
+  {
+   "english": "Ice Fang Castle",
+   "french_old": "Château du Croc de Glace",
+   "french_new": "Château Croc-Glace",
+   "offsets": [
+    "0x6c4bf7",
+    "0x6c52c7"
+   ],
+   "bytes": 24
+  },
+  {
+   "english": "Spring of Temptation",
+   "french_old": "Source de la Tentation",
+   "french_new": "Source Tentation",
+   "offsets": [
+    "0x6c4c22",
+    "0x6c52f2"
+   ],
+   "bytes": 22
+  },
+  {
+   "english": "Rain Temple Village",
+   "french_old": "Village du Temple de la Pluie",
+   "french_new": "Village Temple-Pluie",
+   "offsets": [
+    "0x6c4c81",
+    "0x6c5351"
+   ],
+   "bytes": 29
+  },
+  {
+   "english": "Turtle Shrine",
+   "french_old": "Sanctuaire de la Tortue",
+   "french_new": "Sanct. de la Tortue",
+   "offsets": [
+    "0x6c4e23",
+    "0x6c54f3"
+   ],
+   "bytes": 23
+  },
+  {
+   "english": "Cryptic Arbor Castle",
+   "french_old": "Château de l’Arbre mystérieux",
+   "french_new": "Château Arbre-Énigme",
+   "offsets": [
+    "0x6c4e7a",
+    "0x6c554a"
+   ],
+   "bytes": 29
+  },
+  {
+   "english": "Gold Dust Village",
+   "french_old": "Village des Paillettes d’Or",
+   "french_new": "Village Poudre d’Or",
+   "offsets": [
+    "0x6c4ecd",
+    "0x6c559d"
+   ],
+   "bytes": 27
+  },
+  {
+   "english": "Akamaru Gold and Silver Research Lab",
+   "french_old": "Labo Or et Argent d’Akamaru",
+   "french_new": "Labo d’Akamaru",
+   "offsets": [
+    "0x6c4f40",
+    "0x6c5610"
+   ],
+   "bytes": 27
+  },
+  {
+   "english": "Dragon Mouth Village",
+   "french_old": "Village de la Gueule du Dragon",
+   "french_new": "Village Gueule-Dragon",
+   "offsets": [
+    "0x6c4f98",
+    "0x6c5668"
+   ],
+   "bytes": 30
+  },
+  {
+   "english": "Dragon Eyes Village",
+   "french_old": "Village des Yeux du Dragon",
+   "french_new": "Village Yeux-Dragon",
+   "offsets": [
+    "0x6c4fb7",
+    "0x6c5687"
+   ],
+   "bytes": 26
+  },
+  {
+   "english": "Dragon Ears Village",
+   "french_old": "Village des Oreilles du Dragon",
+   "french_new": "Village Oreilles-Dragon",
+   "offsets": [
+    "0x6c4fd2",
+    "0x6c56a2"
+   ],
+   "bytes": 30
+  },
+  {
+   "english": "Royal Dragon Castle",
+   "french_old": "Château royal du Dragon",
+   "french_new": "Château Dragon royal",
+   "offsets": [
+    "0x6c501d",
+    "0x6c56ed"
+   ],
+   "bytes": 23
+  },
+  {
+   "english": "Takamagahara, the Heavens",
+   "french_old": "Takamagahara, les Cieux",
+   "french_new": "Takamagahara",
+   "offsets": [
+    "0x6c5079",
+    "0x6c5749",
+    "0x6c5a19"
+   ],
+   "bytes": 23
+  },
+  {
+   "english": "Grand Shrine of the Heavens",
+   "french_old": "Grand sanctuaire des Cieux",
+   "french_new": "Grand sanct. Cieux",
+   "offsets": [
+    "0x6c5091",
+    "0x6c5761"
+   ],
+   "bytes": 26
+  },
+  {
+   "english": "Conception Village",
+   "french_old": "Village de la Conception",
+   "french_new": "Village Conception",
+   "offsets": [
+    "0x6c50c0",
+    "0x6c5790"
+   ],
+   "bytes": 24
+  },
+  {
+   "english": "Tense Cavern",
+   "french_old": "Caverne de la Tension",
+   "french_new": "Caverne Tension",
+   "offsets": [
+    "0x6c5160",
+    "0x6c5830"
+   ],
+   "bytes": 21
+  },
+  {
+   "english": "Inside the Royal Dragon Castle",
+   "french_old": "Intérieur du château du Dragon",
+   "french_new": "Int. château Dragon",
+   "offsets": [
+    "0x6c518b",
+    "0x6c585b"
+   ],
+   "bytes": 30
+  }
+ ]
+}

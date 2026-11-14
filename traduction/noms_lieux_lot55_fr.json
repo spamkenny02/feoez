@@ -1,0 +1,191 @@
+[
+ {
+  "english": "Fireshadow Village",
+  "french_old": "Village de l’Ombre du Feu",
+  "french_new": "Village Ombre-Feu",
+  "ids": [
+   "B014-S002",
+   "B015-S002"
+  ]
+ },
+ {
+  "english": "Firepoint Village",
+  "french_old": "Village de la Pointe du Feu",
+  "french_new": "Village Pointe-Feu",
+  "ids": [
+   "B014-S006",
+   "B015-S006"
+  ]
+ },
+ {
+  "english": "Flame Shrine",
+  "french_old": "Sanctuaire de la Flamme",
+  "french_new": "Sanct. de la Flamme",
+  "ids": [
+   "B014-S007",
+   "B015-S007"
+  ]
+ },
+ {
+  "english": "Fire Bear Shrine",
+  "french_old": "Sanctuaire de l’Ours de Feu",
+  "french_new": "Sanct. Ours de Feu",
+  "ids": [
+   "B014-S008",
+   "B015-S008"
+  ]
+ },
+ {
+  "english": "Ice Mountain Village",
+  "french_old": "Village du Mont de Glace",
+  "french_new": "Village Mont-Glace",
+  "ids": [
+   "B014-S010",
+   "B015-S010"
+  ]
+ },
+ {
+  "english": "Ice Fang Castle",
+  "french_old": "Château du Croc de Glace",
+  "french_new": "Château Croc-Glace",
+  "ids": [
+   "B014-S014",
+   "B015-S014"
+  ]
+ },
+ {
+  "english": "Spring of Temptation",
+  "french_old": "Source de la Tentation",
+  "french_new": "Source Tentation",
+  "ids": [
+   "B014-S016",
+   "B015-S016"
+  ]
+ },
+ {
+  "english": "Rain Temple Village",
+  "french_old": "Village du Temple de la Pluie",
+  "french_new": "Village Temple-Pluie",
+  "ids": [
+   "B014-S021",
+   "B015-S021"
+  ]
+ },
+ {
+  "english": "Turtle Shrine",
+  "french_old": "Sanctuaire de la Tortue",
+  "french_new": "Sanct. de la Tortue",
+  "ids": [
+   "B014-S045",
+   "B015-S045"
+  ]
+ },
+ {
+  "english": "Cryptic Arbor Castle",
+  "french_old": "Château de l’Arbre mystérieux",
+  "french_new": "Château Arbre-Énigme",
+  "ids": [
+   "B014-S049",
+   "B015-S049"
+  ]
+ },
+ {
+  "english": "Gold Dust Village",
+  "french_old": "Village des Paillettes d’Or",
+  "french_new": "Village Poudre d’Or",
+  "ids": [
+   "B014-S053",
+   "B015-S053"
+  ]
+ },
+ {
+  "english": "Akamaru Gold and Silver Research Lab",
+  "french_old": "Labo Or et Argent d’Akamaru",
+  "french_new": "Labo d’Akamaru",
+  "ids": [
+   "B014-S059",
+   "B015-S059"
+  ]
+ },
+ {
+  "english": "Dragon Mouth Village",
+  "french_old": "Village de la Gueule du Dragon",
+  "french_new": "Village Gueule-Dragon",
+  "ids": [
+   "B014-S064",
+   "B015-S064"
+  ]
+ },
+ {
+  "english": "Dragon Eyes Village",
+  "french_old": "Village des Yeux du Dragon",
+  "french_new": "Village Yeux-Dragon",
+  "ids": [
+   "B014-S065",
+   "B015-S065"
+  ]
+ },
+ {
+  "english": "Dragon Ears Village",
+  "french_old": "Village des Oreilles du Dragon",
+  "french_new": "Village Oreilles-Dragon",
+  "ids": [
+   "B014-S066",
+   "B015-S066"
+  ]
+ },
+ {
+  "english": "Royal Dragon Castle",
+  "french_old": "Château royal du Dragon",
+  "french_new": "Château Dragon royal",
+  "ids": [
+   "B014-S069",
+   "B015-S069"
+  ]
+ },
+ {
+  "english": "Takamagahara, the Heavens",
+  "french_old": "Takamagahara, les Cieux",
+  "french_new": "Takamagahara",
+  "ids": [
+   "B014-S075",
+   "B015-S075"
+  ]
+ },
+ {
+  "english": "Grand Shrine of the Heavens",
+  "french_old": "Grand sanctuaire des Cieux",
+  "french_new": "Grand sanct. Cieux",
+  "ids": [
+   "B014-S076",
+   "B015-S076"
+  ]
+ },
+ {
+  "english": "Conception Village",
+  "french_old": "Village de la Conception",
+  "french_new": "Village Conception",
+  "ids": [
+   "B014-S078",
+   "B015-S078"
+  ]
+ },
+ {
+  "english": "Tense Cavern",
+  "french_old": "Caverne de la Tension",
+  "french_new": "Caverne Tension",
+  "ids": [
+   "B014-S087",
+   "B015-S087"
+  ]
+ },
+ {
+  "english": "Inside the Royal Dragon Castle",
+  "french_old": "Intérieur du château du Dragon",
+  "french_new": "Int. château Dragon",
+  "ids": [
+   "B014-S089",
+   "B015-S089"
+  ]
+ }
+]
