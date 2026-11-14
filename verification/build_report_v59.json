@@ -1,0 +1,35 @@
+{
+ "version": "V59",
+ "base": "V58",
+ "strips": 3,
+ "ips_sha256": "af1d7c6b70b05c09404a3c768fc2ba9609cfaed15a0f4652bfc31efa59985eb0",
+ "rom_sha256": "794d94d055ff1879be11fd3e5c3b823553bab6d0d78d2c15f6e6b33d78774e19",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/panneau_personnage_v59_*.png",
+ "entries": [
+  {
+   "offset": "0x6f41d0",
+   "english": "Rank",
+   "french": "Rang",
+   "pixels": 20,
+   "limit_px": 24,
+   "screen": "Équip. : panneau de personnage"
+  },
+  {
+   "offset": "0x6f22c0",
+   "english": "Rank",
+   "french": "Rang",
+   "pixels": 20,
+   "limit_px": 24,
+   "screen": "Parchemins : panneau de personnage"
+  },
+  {
+   "offset": "0x6f2300",
+   "english": "Health",
+   "french": "Vie",
+   "pixels": 12,
+   "limit_px": 32,
+   "screen": "Parchemins : panneau de personnage"
+  }
+ ]
+}

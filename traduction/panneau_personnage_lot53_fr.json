@@ -1,0 +1,29 @@
+[
+ {
+  "offset": "0x6f41d0",
+  "tiles": 3,
+  "english": "Rank",
+  "french": "Rang",
+  "align": "left",
+  "limit_px": 24,
+  "screen": "Équip. : panneau de personnage"
+ },
+ {
+  "offset": "0x6f22c0",
+  "tiles": 3,
+  "english": "Rank",
+  "french": "Rang",
+  "align": "left",
+  "limit_px": 24,
+  "screen": "Parchemins : panneau de personnage"
+ },
+ {
+  "offset": "0x6f2300",
+  "tiles": 4,
+  "english": "Health",
+  "french": "Vie",
+  "align": "left",
+  "limit_px": 32,
+  "screen": "Parchemins : panneau de personnage"
+ }
+]
