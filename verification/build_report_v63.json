@@ -1,0 +1,155 @@
+{
+ "version": "V63",
+ "base": "V62",
+ "strips": 18,
+ "ips_sha256": "dd641c1c4c21912778987e6aebd419a695bd7f80a92e1cfbdec985f05ed9c2ed",
+ "rom_sha256": "13ecfc60220559de4d0845a989d1e5f57ba5790b2eaf587b13cf61e7c892fb15",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/boutique_v63_*.png",
+ "entries": [
+  {
+   "offset": "0x6f4940",
+   "english": "Defense",
+   "french": "Défense",
+   "pixels": 34,
+   "limit_px": 40,
+   "screen": "boutique (achat)"
+  },
+  {
+   "offset": "0x6f4990",
+   "english": "Speed",
+   "french": "Vitesse",
+   "pixels": 31,
+   "limit_px": 32,
+   "screen": "boutique (achat)"
+  },
+  {
+   "offset": "0x6f49d0",
+   "english": "Luck",
+   "french": "Chan.",
+   "pixels": 22,
+   "limit_px": 24,
+   "screen": "boutique (achat) - déduit du décodage"
+  },
+  {
+   "offset": "0x6f4b30",
+   "english": "Accessories",
+   "french": "Accessoire",
+   "pixels": 48,
+   "limit_px": 48,
+   "screen": "boutique (achat)"
+  },
+  {
+   "offset": "0x6f4b90",
+   "english": "Armor",
+   "french": "Armure",
+   "pixels": 32,
+   "limit_px": 32,
+   "screen": "boutique (achat)"
+  },
+  {
+   "offset": "0x6f4ca0",
+   "english": "Will this be okay?",
+   "french": "Ça te va ?",
+   "pixels": 47,
+   "limit_px": 72,
+   "screen": "boutique (achat) - déduit du décodage"
+  },
+  {
+   "offset": "0x6d3000",
+   "english": "Buy",
+   "french": "Ach",
+   "pixels": 16,
+   "limit_px": 16,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3020",
+   "english": "Sell",
+   "french": "Vte",
+   "pixels": 14,
+   "limit_px": 16,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3040",
+   "english": "Welcome!",
+   "french": "Salut !",
+   "pixels": 27,
+   "limit_px": 40,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3090",
+   "english": "What will you sell?",
+   "french": "Que vends-tu ?",
+   "pixels": 67,
+   "limit_px": 80,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d31b0",
+   "english": "Bookmark",
+   "french": "Signet",
+   "pixels": 26,
+   "limit_px": 40,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3240",
+   "english": "Cash on Hand",
+   "french": "Argent",
+   "pixels": 30,
+   "limit_px": 56,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d33b0",
+   "english": "Items",
+   "french": "Objet",
+   "pixels": 23,
+   "limit_px": 24,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d33e0",
+   "english": "Weapons",
+   "french": "Armes",
+   "pixels": 27,
+   "limit_px": 40,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3430",
+   "english": "Accessories",
+   "french": "Accessoire",
+   "pixels": 48,
+   "limit_px": 48,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d3490",
+   "english": "Armor",
+   "french": "Armure",
+   "pixels": 32,
+   "limit_px": 32,
+   "screen": "boutique (vente)"
+  },
+  {
+   "offset": "0x6d35a0",
+   "english": "Will this be okay?",
+   "french": "Ça te va ?",
+   "pixels": 47,
+   "limit_px": 72,
+   "screen": "boutique (vente) - déduit du décodage"
+  },
+  {
+   "offset": "0x6d3630",
+   "english": "Owned",
+   "french": "Stock",
+   "pixels": 24,
+   "limit_px": 32,
+   "screen": "boutique (vente)"
+  }
+ ]
+}
