@@ -1,0 +1,58 @@
+[
+ {
+  "s": 22,
+  "english": "Luck Luck Village",
+  "french_original": "Village Double-Chance",
+  "french_current": "Village Double-Chance",
+  "french_new": "Village Chanceux"
+ },
+ {
+  "s": 40,
+  "english": "Crane and Turtle Crossing",
+  "french_original": "Passage Grue-Tortue",
+  "french_current": "Passage Grue-Tortue",
+  "french_new": "Pont Grue-Tortue"
+ },
+ {
+  "s": 46,
+  "english": "Head Mt. Village",
+  "french_original": "Village du Mont-Tête",
+  "french_current": "Village du Mont-Tête",
+  "french_new": "Village Mont-Tête"
+ },
+ {
+  "s": 49,
+  "english": "Cryptic Arbor Castle",
+  "french_original": "Château de l’Arbre mystérieux",
+  "french_current": "Château Arbre-Énigme",
+  "french_new": "Ch. Arbre-Énigme"
+ },
+ {
+  "s": 64,
+  "english": "Dragon Mouth Village",
+  "french_original": "Village de la Gueule du Dragon",
+  "french_current": "Village Gueule-Dragon",
+  "french_new": "Bourg Gueule-Dragon"
+ },
+ {
+  "s": 66,
+  "english": "Dragon Ears Village",
+  "french_original": "Village des Oreilles du Dragon",
+  "french_current": "Village Oreilles-Dragon",
+  "french_new": "Bourg Oreille-Dragon"
+ },
+ {
+  "s": 68,
+  "english": "Royal Dragon Town",
+  "french_original": "Ville royale du Dragon",
+  "french_current": "Ville royale du Dragon",
+  "french_new": "Ville Dragon royal"
+ },
+ {
+  "s": 74,
+  "english": "Crab-Crab Cavern",
+  "french_original": "Caverne Crabe-Crabe",
+  "french_current": "Caverne Crabe-Crabe",
+  "french_new": "Grotte Crabe-Crabe"
+ }
+]

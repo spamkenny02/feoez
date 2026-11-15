@@ -1,0 +1,92 @@
+{
+ "version": "V65",
+ "base": "V64",
+ "places": 8,
+ "replaced_occurrences": 16,
+ "ips_sha256": "0d5b35cf0dae26b74fe2d35d8a073f4d65b371e0fb19024d28cea472cd2ddd0e",
+ "rom_sha256": "1f320ae49abdc99e0c2b9d574dded89c6e79a22523326350fdbe12699fa5eba2",
+ "ips_roundtrip": true,
+ "runtime_validation": "capture Snes9x : verification/lieux_v65_*.png",
+ "entries": [
+  {
+   "english": "Luck Luck Village",
+   "french_current": "Village Double-Chance",
+   "french_new": "Village Chanceux",
+   "offsets": [
+    "0x6c4c9f",
+    "0x6c536f"
+   ],
+   "bytes": 21
+  },
+  {
+   "english": "Crane and Turtle Crossing",
+   "french_current": "Passage Grue-Tortue",
+   "french_new": "Pont Grue-Tortue",
+   "offsets": [
+    "0x6c4de5",
+    "0x6c54b5"
+   ],
+   "bytes": 19
+  },
+  {
+   "english": "Head Mt. Village",
+   "french_current": "Village du Mont-Tête",
+   "french_new": "Village Mont-Tête",
+   "offsets": [
+    "0x6c4e3b",
+    "0x6c550b"
+   ],
+   "bytes": 20
+  },
+  {
+   "english": "Cryptic Arbor Castle",
+   "french_current": "Château Arbre-Énigme",
+   "french_new": "Ch. Arbre-Énigme",
+   "offsets": [
+    "0x6c4e7a",
+    "0x6c554a"
+   ],
+   "bytes": 29
+  },
+  {
+   "english": "Dragon Mouth Village",
+   "french_current": "Village Gueule-Dragon",
+   "french_new": "Bourg Gueule-Dragon",
+   "offsets": [
+    "0x6c4f98",
+    "0x6c5668"
+   ],
+   "bytes": 30
+  },
+  {
+   "english": "Dragon Ears Village",
+   "french_current": "Village Oreilles-Dragon",
+   "french_new": "Bourg Oreille-Dragon",
+   "offsets": [
+    "0x6c4fd2",
+    "0x6c56a2"
+   ],
+   "bytes": 30
+  },
+  {
+   "english": "Royal Dragon Town",
+   "french_current": "Ville royale du Dragon",
+   "french_new": "Ville Dragon royal",
+   "offsets": [
+    "0x6c5006",
+    "0x6c56d6"
+   ],
+   "bytes": 22
+  },
+  {
+   "english": "Crab-Crab Cavern",
+   "french_current": "Caverne Crabe-Crabe",
+   "french_new": "Grotte Crabe-Crabe",
+   "offsets": [
+    "0x6c5065",
+    "0x6c5735"
+   ],
+   "bytes": 19
+  }
+ ]
+}
