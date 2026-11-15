@@ -1,0 +1,72 @@
+[
+ {
+  "offset": "0x6d2030",
+  "tiles": 8,
+  "english": "Fresh Start",
+  "french": "Nouveau jeu",
+  "icon": false,
+  "align": "left",
+  "limit_px": 64,
+  "screen": "Titre : choix de fichier (vérifié à l’écran)"
+ },
+ {
+  "offset": "0x6d20b0",
+  "tiles": 5,
+  "english": "Delete All",
+  "french": "Effacer",
+  "icon": false,
+  "align": "left",
+  "limit_px": 40,
+  "screen": "Titre : choix de fichier (vérifié à l’écran)"
+ },
+ {
+  "offset": "0x6d2100",
+  "tiles": 2,
+  "english": "Yes",
+  "french": "Oui",
+  "icon": false,
+  "align": "left",
+  "limit_px": 16,
+  "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+ },
+ {
+  "offset": "0x6d2120",
+  "tiles": 2,
+  "english": "No",
+  "french": "Non",
+  "icon": false,
+  "align": "left",
+  "limit_px": 16,
+  "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+ },
+ {
+  "offset": "0x6d2140",
+  "tiles": 17,
+  "english": "Is it okay to delete all the data?",
+  "french": "Effacer toutes les données ?",
+  "icon": false,
+  "align": "left",
+  "limit_px": 136,
+  "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+ },
+ {
+  "offset": "0x6d22a0",
+  "tiles": 6,
+  "english": "Restart +",
+  "french": "Rejouer",
+  "icon": true,
+  "align": "left",
+  "limit_px": 48,
+  "screen": "Redémarrage de partie (non atteint : plage déduite du décodage de la bande)"
+ },
+ {
+  "offset": "0x6d2300",
+  "tiles": 13,
+  "english": "Delete the broken file?",
+  "french": "Effacer fichier abîmé ?",
+  "icon": false,
+  "align": "left",
+  "limit_px": 104,
+  "screen": "Fichier endommagé (non atteint : plage déduite du décodage de la bande)"
+ }
+]

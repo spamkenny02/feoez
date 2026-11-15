@@ -1,0 +1,67 @@
+{
+ "version": "V62",
+ "base": "V61",
+ "strips": 7,
+ "ips_sha256": "da781aec9df864157c344762fc0d277361a4482975ee2d76002faf41a251c958",
+ "rom_sha256": "de45454d271e68b9df4bca6d9e086f3dd3135fde92c83f2db2a7f7f5d2d6383d",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/suppression_v62_*.png",
+ "entries": [
+  {
+   "offset": "0x6d2030",
+   "english": "Fresh Start",
+   "french": "Nouveau jeu",
+   "pixels": 53,
+   "limit_px": 64,
+   "screen": "Titre : choix de fichier (vérifié à l’écran)"
+  },
+  {
+   "offset": "0x6d20b0",
+   "english": "Delete All",
+   "french": "Effacer",
+   "pixels": 33,
+   "limit_px": 40,
+   "screen": "Titre : choix de fichier (vérifié à l’écran)"
+  },
+  {
+   "offset": "0x6d2100",
+   "english": "Yes",
+   "french": "Oui",
+   "pixels": 13,
+   "limit_px": 16,
+   "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+  },
+  {
+   "offset": "0x6d2120",
+   "english": "No",
+   "french": "Non",
+   "pixels": 16,
+   "limit_px": 16,
+   "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+  },
+  {
+   "offset": "0x6d2140",
+   "english": "Is it okay to delete all the data?",
+   "french": "Effacer toutes les données ?",
+   "pixels": 130,
+   "limit_px": 136,
+   "screen": "Titre : confirmation de suppression (vérifié à l’écran)"
+  },
+  {
+   "offset": "0x6d22a0",
+   "english": "Restart +",
+   "french": "Rejouer",
+   "pixels": 41,
+   "limit_px": 48,
+   "screen": "Redémarrage de partie (non atteint : plage déduite du décodage de la bande)"
+  },
+  {
+   "offset": "0x6d2300",
+   "english": "Delete the broken file?",
+   "french": "Effacer fichier abîmé ?",
+   "pixels": 103,
+   "limit_px": 104,
+   "screen": "Fichier endommagé (non atteint : plage déduite du décodage de la bande)"
+  }
+ ]
+}
