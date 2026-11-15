@@ -1,0 +1,74 @@
+[
+ {
+  "index": 28,
+  "offset": "0x6f6e00",
+  "english": "Soft Pill",
+  "french_old": "Pilule Souple",
+  "french": "Pilule souple",
+  "icon": false
+ },
+ {
+  "index": 64,
+  "offset": "0x6f8000",
+  "english": "Dozing Powder",
+  "french_old": "Pdre sommeil",
+  "french": "Poudre sieste",
+  "icon": false
+ },
+ {
+  "index": 99,
+  "offset": "0x6f9180",
+  "english": "Peacock Tear",
+  "french_old": "Larme du Paon",
+  "french": "Larme de paon",
+  "icon": false
+ },
+ {
+  "index": 108,
+  "offset": "0x6f9600",
+  "english": "Fool Pill",
+  "french_old": "Pilule du Sot",
+  "french": "Pilule du sot",
+  "icon": false
+ },
+ {
+  "index": 149,
+  "offset": "0x6faa80",
+  "english": "Almighty Knife",
+  "french_old": "Cout. suprême",
+  "french": "Couteau divin",
+  "icon": false
+ },
+ {
+  "index": 254,
+  "offset": "0x6fdf00",
+  "english": "Fortune Ring",
+  "french_old": "Anneau sort",
+  "french": "Anneau destin",
+  "icon": false
+ },
+ {
+  "index": 181,
+  "offset": "0x6fba80",
+  "english": "Willful Armor",
+  "french_old": "Arm. obstinée",
+  "french": "Armure têtue",
+  "icon": false
+ },
+ {
+  "index": 213,
+  "offset": "0x6fca80",
+  "english": "Purple Hood",
+  "french_old": "Cap. mauve",
+  "french": "Cagoule mauve",
+  "icon": false
+ },
+ {
+  "index": 217,
+  "offset": "0x6fcc80",
+  "english": "Disaster Hood",
+  "french_old": "Cap. désastre",
+  "french": "Capuche chaos",
+  "icon": false
+ }
+]
