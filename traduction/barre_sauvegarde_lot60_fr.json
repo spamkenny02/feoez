@@ -1,0 +1,12 @@
+[
+ {
+  "offset": "0x6f0a30",
+  "tiles": 7,
+  "english": "Cash on Hand",
+  "french": "Argent",
+  "icon": false,
+  "align": "left",
+  "limit_px": 56,
+  "screen": "Menu de sauvegarde : barre Total / Cash on Hand (bande 0x6f0a00 chargée en VRAM 0x7d00, tuiles 3 à 9)"
+ }
+]

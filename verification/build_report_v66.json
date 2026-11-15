@@ -1,0 +1,19 @@
+{
+ "version": "V66",
+ "base": "V65",
+ "strips": 1,
+ "ips_sha256": "fb1d9bd41407c89ca0f0a2b31f3383c2e946cf144e69e681c55cc5086643eb95",
+ "rom_sha256": "1cff566ad3867c629e976438731b466a77c5b8817812903ccb0f7b3e72a916ed",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/barre_sauvegarde_v66_*.png",
+ "entries": [
+  {
+   "offset": "0x6f0a30",
+   "english": "Cash on Hand",
+   "french": "Argent",
+   "pixels": 30,
+   "limit_px": 56,
+   "screen": "Menu de sauvegarde : barre Total / Cash on Hand (bande 0x6f0a00 chargée en VRAM 0x7d00, tuiles 3 à 9)"
+  }
+ ]
+}
