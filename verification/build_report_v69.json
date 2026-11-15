@@ -1,0 +1,76 @@
+{
+ "version": "V69",
+ "base": "V68",
+ "streams": 8,
+ "max_compressed_bytes": 61,
+ "ips_sha256": "be1a4835f103e246ec17d9e33cebcc1d5231d329816d7986e74d0bbd69794ebc",
+ "rom_sha256": "1a7cb12d38b3c6b516ad29d75228808e6e2acfe0eadb4a90a6adf09e86b14c04",
+ "ips_roundtrip": true,
+ "runtime_validation": "tuiles relues avec le decodeur ; rendu charge en VRAM dans verification/combat_roue_v69.png",
+ "entries": [
+  {
+   "english": "Attack",
+   "french": "Attaq.",
+   "stream": "0x505d00",
+   "compressed_bytes": 57,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Attack",
+   "french": "Attaq.",
+   "stream": "0x505d80",
+   "compressed_bytes": 50,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Skills",
+   "french": "Arts",
+   "stream": "0x506000",
+   "compressed_bytes": 46,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Skills",
+   "french": "Arts",
+   "stream": "0x506080",
+   "compressed_bytes": 51,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Items",
+   "french": "Objet",
+   "stream": "0x506100",
+   "compressed_bytes": 51,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Items",
+   "french": "Objet",
+   "stream": "0x506180",
+   "compressed_bytes": 61,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Scrolls",
+   "french": "Parch.",
+   "stream": "0x505f00",
+   "compressed_bytes": 57,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  },
+  {
+   "english": "Scrolls",
+   "french": "Parch.",
+   "stream": "0x505f80",
+   "compressed_bytes": 49,
+   "slot_bytes": 128,
+   "old_stream_bytes": null
+  }
+ ]
+}
