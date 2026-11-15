@@ -28,6 +28,13 @@ confirmation « Ça te va ? ».
 
 ## Combat (`attaque.state`, V67)
 - Panneaux de sous-menus (Arts secrets, Parchemins) : traduits et vérifiés à l'écran (V67).
-- Roue de commandes (Attack / Skills / Items / Scrolls), chiffres de dégâts et mot « Failed » : sprites 4 bits
-  compressés, absents en clair de la ROM ; **non traduits** (voir `COMPTE_RENDU_V67.md`).
+- Roue de commandes (Attack / Skills / Items / Scrolls) : sprites 4 bits compressés (SPC7110) ; **traduits en V69**
+  avec l'outil de compression `tools/spc7110.py` (voir `COMPTE_RENDU_V69.md`), vérifiés par décompression des
+  flux de la ROM V69 et chargement en VRAM de l'état de combat (le jeu ne les redécompresse pas en plein combat).
+- Chiffres de dégâts et mot « Failed » (OBJ 0 à 15, base 0xc000) : non traduits ; leur flux n'a pas été retrouvé
+  (les 43 459 débuts de flux candidats testés ne les produisent pas).
 - Un tour d'attaque complet ne fait apparaître aucun autre texte anglais (dégâts en chiffres, pas de message).
+
+## Nommage de l'animal (V68)
+Écran non atteint (aucun état) : plages de tuiles déduites du décodage de la bande à 0x6d4200 (titre tuiles 64-77,
+« End » tuiles 94-95, lettres une par tuile). Rendu des bandes vérifié (avant/après), usage en jeu non vérifié.
