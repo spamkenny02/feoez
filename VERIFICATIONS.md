@@ -31,8 +31,10 @@ confirmation « Ça te va ? ».
 - Roue de commandes (Attack / Skills / Items / Scrolls) : sprites 4 bits compressés (SPC7110) ; **traduits en V69**
   avec l'outil de compression `tools/spc7110.py` (voir `COMPTE_RENDU_V69.md`), vérifiés par décompression des
   flux de la ROM V69 et chargement en VRAM de l'état de combat (le jeu ne les redécompresse pas en plein combat).
-- Chiffres de dégâts et mot « Failed » (OBJ 0 à 15, base 0xc000) : non traduits ; leur flux n'a pas été retrouvé
-  (les 43 459 débuts de flux candidats testés ne les produisent pas).
+- Mot « Failed » : flux 0x51e200 retrouvé (chargé à l'attaque) et traduit en « Raté » (V70) ; vérifié dans un combat
+  réel (VRAM d'objets = tuiles décompressées du flux V70). Chiffres de dégâts : numériques, inchangés. Non vu à l'écran :
+  l'échec n'a pas pu être provoqué.
+- Roue de commandes V69 : confirmée **en combat réel** (le jeu décompresse lui-même les étiquettes françaises).
 - Un tour d'attaque complet ne fait apparaître aucun autre texte anglais (dégâts en chiffres, pas de message).
 
 ## Nommage de l'animal (V68)

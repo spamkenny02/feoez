@@ -1,0 +1,64 @@
+{
+ "description": "Mot « Failed » affiche en combat : tuiles 20 a 25 du flux SPC7110 de mode 2 a 0x51e200 (29 tuiles ; les tuiles paires sont les rangees hautes des objets 0 a 12, les impaires les rangees basses des objets 16 a 28). Les chiffres 0 a 9 sont les tuiles 0 a 18 (paires), inchangees.",
+ "stream": "0x51e200",
+ "tiles": 29,
+ "max_stream_bytes": 200,
+ "old_stream_tiles_sha256": "4a88953bb65ecc530394d80c9b99ab5310d3095f7622227990aa85da39cb582a",
+ "english": "Failed",
+ "french": "Raté",
+ "x0": 1,
+ "gaps": [
+  2,
+  2,
+  1
+ ],
+ "glyphs": {
+  "R": [
+   "####.",
+   "#...#",
+   "#...#",
+   "####.",
+   "#..#.",
+   "#...#",
+   "#...#",
+   "#...#"
+  ],
+  "a": [
+   ".##.",
+   "...#",
+   ".###",
+   "#..#",
+   "#..#",
+   ".###"
+  ],
+  "t": [
+   ".#..",
+   "####",
+   ".#..",
+   ".#..",
+   ".#..",
+   ".##."
+  ],
+  "e": [
+   ".##.",
+   "#..#",
+   "####",
+   "#...",
+   "#..#",
+   ".##."
+  ]
+ },
+ "accent": {
+  "pixels": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    2
+   ]
+  ],
+  "note": "deux pixels en diagonale sur le e : (rangee 1, colonne xe+3) et (rangee 2, colonne xe+2)"
+ }
+}

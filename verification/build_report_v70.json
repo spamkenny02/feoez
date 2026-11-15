@@ -1,0 +1,11 @@
+{
+ "version": "V70",
+ "base": "V69",
+ "stream": "0x51e200",
+ "compressed_bytes": 185,
+ "max_stream_bytes": 200,
+ "ips_sha256": "be8625e018ee40d57536206ffe9610a7b1cb73d5e838f248a5c4d181e1976143",
+ "rom_sha256": "54d86dbccff7000df7da14a595ed4706dd311e9981fc601518c3208d526e45c1",
+ "ips_roundtrip": true,
+ "runtime_validation": "tuiles relues dans la VRAM d'un combat (voir COMPTE_RENDU_V70.md)"
+}
