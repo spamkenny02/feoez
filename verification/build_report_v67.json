@@ -1,0 +1,59 @@
+{
+ "version": "V67",
+ "base": "V66",
+ "strips": 6,
+ "ips_sha256": "b33aaa489f2f9e04a734c4a5c623b785c66cac209221e58ae2d9d468b04d6def",
+ "rom_sha256": "0b97f48ab8c173c2446cfd6dfc71e1555889f464015c08984f2630f37512f77c",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/combat_v67_*.png",
+ "entries": [
+  {
+   "offset": "0x6f2740",
+   "english": "Skill",
+   "french": "Art",
+   "pixels": 15,
+   "limit_px": 16,
+   "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+  },
+  {
+   "offset": "0x6f2760",
+   "english": "Health",
+   "french": "Vie",
+   "pixels": 12,
+   "limit_px": 32,
+   "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+  },
+  {
+   "offset": "0x6f26d0",
+   "english": "Used",
+   "french": "Coût",
+   "pixels": 19,
+   "limit_px": 24,
+   "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+  },
+  {
+   "offset": "0x6f2cc0",
+   "english": "Scrolls",
+   "french": "Parch.",
+   "pixels": 27,
+   "limit_px": 32,
+   "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+  },
+  {
+   "offset": "0x6f2c60",
+   "english": "Tech",
+   "french": "Coût",
+   "pixels": 19,
+   "limit_px": 24,
+   "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+  },
+  {
+   "offset": "0x6f2c90",
+   "english": "Used",
+   "french": "tech.",
+   "pixels": 21,
+   "limit_px": 24,
+   "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+  }
+ ]
+}

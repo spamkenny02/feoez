@@ -25,3 +25,9 @@ Un objet n'est vendable que s'il n'est pas équipé : dans l'état fourni, tout 
 A sans effet). En le retirant par le menu Équip. (« Sans équip. »), le katana devient vendable : sélection → quantité →
 validation, et la vente se fait sans confirmation (Argent 0 → 44 ryo). Cet argent permet ensuite d'acheter et de voir la
 confirmation « Ça te va ? ».
+
+## Combat (`attaque.state`, V67)
+- Panneaux de sous-menus (Arts secrets, Parchemins) : traduits et vérifiés à l'écran (V67).
+- Roue de commandes (Attack / Skills / Items / Scrolls), chiffres de dégâts et mot « Failed » : sprites 4 bits
+  compressés, absents en clair de la ROM ; **non traduits** (voir `COMPTE_RENDU_V67.md`).
+- Un tour d'attaque complet ne fait apparaître aucun autre texte anglais (dégâts en chiffres, pas de message).

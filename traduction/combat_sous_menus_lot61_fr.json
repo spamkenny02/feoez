@@ -1,0 +1,62 @@
+[
+ {
+  "offset": "0x6f2740",
+  "tiles": 2,
+  "english": "Skill",
+  "french": "Art",
+  "icon": false,
+  "align": "left",
+  "limit_px": 16,
+  "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+ },
+ {
+  "offset": "0x6f2760",
+  "tiles": 4,
+  "english": "Health",
+  "french": "Vie",
+  "icon": false,
+  "align": "left",
+  "limit_px": 32,
+  "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+ },
+ {
+  "offset": "0x6f26d0",
+  "tiles": 3,
+  "english": "Used",
+  "french": "Coût",
+  "icon": false,
+  "align": "left",
+  "limit_px": 24,
+  "screen": "combat : sous-menu Arts secrets (bande 0x6f2500)"
+ },
+ {
+  "offset": "0x6f2cc0",
+  "tiles": 4,
+  "english": "Scrolls",
+  "french": "Parch.",
+  "icon": false,
+  "align": "left",
+  "limit_px": 32,
+  "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+ },
+ {
+  "offset": "0x6f2c60",
+  "tiles": 3,
+  "english": "Tech",
+  "french": "Coût",
+  "icon": false,
+  "align": "left",
+  "limit_px": 24,
+  "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+ },
+ {
+  "offset": "0x6f2c90",
+  "tiles": 3,
+  "english": "Used",
+  "french": "tech.",
+  "icon": false,
+  "align": "left",
+  "limit_px": 24,
+  "screen": "combat : sous-menu Parchemins (bande 0x6f2a00)"
+ }
+]
