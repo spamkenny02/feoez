@@ -1,0 +1,22 @@
+[
+ {
+  "offset": "0x6d4600",
+  "tiles": 14,
+  "english": "Give your new pet a name!",
+  "french": "Nomme ton animal !",
+  "icon": false,
+  "align": "left",
+  "limit_px": 104,
+  "screen": "nommage de l’animal : titre (bande 0x6d4200, tuiles 64-77 : texte ≤ 104 px, la 14e tuile ne sert qu’à effacer l’ombre du « ! » d’origine ; plage déduite du décodage, non vue à l’écran)"
+ },
+ {
+  "offset": "0x6d47e0",
+  "tiles": 2,
+  "english": "End",
+  "french": "Fin",
+  "icon": false,
+  "align": "left",
+  "limit_px": 16,
+  "screen": "nommage de l’animal : validation (tuiles 94-95 ; non vue à l’écran)"
+ }
+]

@@ -1,0 +1,27 @@
+{
+ "version": "V68",
+ "base": "V67",
+ "strips": 2,
+ "ips_sha256": "00ee84bbf47005d75e10451f5ac047a5dbaa25d321c873d77aa7aa13c393606e",
+ "rom_sha256": "e57fe585068bb1c66cd930ec8f4a26609bd87531437e03e8b3d3ef2440366f12",
+ "ips_roundtrip": true,
+ "runtime_validation": "captures Snes9x : verification/nommage_animal_v68_*.png",
+ "entries": [
+  {
+   "offset": "0x6d4600",
+   "english": "Give your new pet a name!",
+   "french": "Nomme ton animal !",
+   "pixels": 81,
+   "limit_px": 104,
+   "screen": "nommage de l’animal : titre (bande 0x6d4200, tuiles 64-77 : texte ≤ 104 px, la 14e tuile ne sert qu’à effacer l’ombre du « ! » d’origine ; plage déduite du décodage, non vue à l’écran)"
+  },
+  {
+   "offset": "0x6d47e0",
+   "english": "End",
+   "french": "Fin",
+   "pixels": 12,
+   "limit_px": 16,
+   "screen": "nommage de l’animal : validation (tuiles 94-95 ; non vue à l’écran)"
+  }
+ ]
+}
