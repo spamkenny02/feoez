@@ -1,0 +1,39 @@
+{
+ "version": "V73",
+ "base": "V72",
+ "streams": 4,
+ "max_compressed_bytes": 61,
+ "ips_sha256": "fe38cc29733f9d2efaf8d5a55061571bc327a9dab521100592a3a91b1666f5e4",
+ "rom_sha256": "7c5e13b865ab428f004ebd8de50c27cb5cb30e3658350dc804e9a556c20ec664",
+ "ips_roundtrip": true,
+ "entries": [
+  {
+   "english": "Defend",
+   "french": "Garde",
+   "stream": "0x505e00",
+   "compressed_bytes": 60,
+   "slot_bytes": 128
+  },
+  {
+   "english": "Defend",
+   "french": "Garde",
+   "stream": "0x505e80",
+   "compressed_bytes": 60,
+   "slot_bytes": 128
+  },
+  {
+   "english": "Flee",
+   "french": "Fuite",
+   "stream": "0x506200",
+   "compressed_bytes": 61,
+   "slot_bytes": 128
+  },
+  {
+   "english": "Flee",
+   "french": "Fuite",
+   "stream": "0x506280",
+   "compressed_bytes": 57,
+   "slot_bytes": 128
+  }
+ ]
+}
