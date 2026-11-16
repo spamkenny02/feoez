@@ -37,6 +37,10 @@ confirmation « Ça te va ? ».
 - Roue de commandes V69 : confirmée **en combat réel** (le jeu décompresse lui-même les étiquettes françaises).
 - Un tour d'attaque complet ne fait apparaître aucun autre texte anglais (dégâts en chiffres, pas de message).
 
-## Nommage de l'animal (V68)
-Écran non atteint (aucun état) : plages de tuiles déduites du décodage de la bande à 0x6d4200 (titre tuiles 64-77,
-« End » tuiles 94-95, lettres une par tuile). Rendu des bandes vérifié (avant/après), usage en jeu non vérifié.
+## Nommage de l'animal (V68) — vérifié en jeu (V73)
+Atteint grâce à un état fourni (couvoir) : parler à Éclosio (près de la couveuse, il se déplace : 45 images d'attente
+avant de lui faire face depuis la case voisine), choisir « Éclosion », « Oui », puis « Oh ! Une Octocarotte ! Bien,
+donne-lui un nom ! ». L'écran affiche **« Nomme ton animal ! »** et **« Fin »** : les plages de tuiles déduites du
+décodage étaient justes. Capture : `verification/nommage_animal_en_jeu_v73.png` (dialogue d'Éclosio :
+`verification/eclosio_dialogue_v73.png`). Le même écran sert à « Donne un nom au marque-page » (B041-S143), non vu.
+Constat : l'alphabet du jeu ne contient pas de lettres accentuées (A-Z, a-z, chiffres, — . ! ? ') ; limite du jeu, pas de la traduction.
