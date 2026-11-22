@@ -5,6 +5,8 @@ Source ROM bytes are never written to disk by this module.
 """
 from pointers import FREE_START, FREE_END, file_to_cpu
 
+PROTECTED=(0x6C9400,0x6C9510)   # données non textuelles (abréviations + hook) à ne jamais écraser
+
 def store_blocks(original, items):
     if len(original)<FREE_END or any(original[FREE_START:FREE_END]):
         raise ValueError('Pinned free pool is unavailable')
@@ -29,6 +31,10 @@ def store_blocks(original, items):
         if len(payload)<=len(old):
             destination=source;storage_length=len(old);kind='in_place'
         else:
+            if cursor<PROTECTED[1] and cursor+len(payload)>PROTECTED[0]:
+                cursor=(PROTECTED[1]+15)&~15
+            if cursor+len(payload)>FREE_END:
+                raise ValueError('Rebuilt text exhausts approved free pool')
             destination=cursor;storage_length=len(payload);kind='relocated'
             cursor=(cursor+storage_length+15)&~15
             if cursor>FREE_END:

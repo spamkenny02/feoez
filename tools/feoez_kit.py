@@ -513,6 +513,9 @@ def render_combat(fr, glyphs, bg):
     return img, out
 
 
+PROTECT_START, PROTECT_END = 0x6C9400, 0x6C9510
+
+
 def build_rom(rom0, base, text_by_id=None, gfx=None):
     """rom0 = ROM anglaise ; base = ROM de base (ex. française) ou None ; retourne (rom, rapport)."""
     global ROM_FOR_WIDTH
@@ -528,6 +531,11 @@ def build_rom(rom0, base, text_by_id=None, gfx=None):
     if text_by_id:
         rom, info = rebuild_texts(rom, text_by_id, rom0)
         report['textes'] = info
+        if base:
+            # données non textuelles de la ROM de base (table d'abréviations + code de hook) : on les restaure
+            nr = bytearray(rom)
+            nr[PROTECT_START:PROTECT_END] = base[PROTECT_START:PROTECT_END]
+            rom = bytes(nr)
     if gfx:
         import spc7110
         glyphs, tags, bg = battle_tags()
