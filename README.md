@@ -1,3 +1,15 @@
+# Tengai Makyou Zero — V77 : mots complets dans les menus
+
+Appliquer **Tengai_Makyou_Zero_JP_vers_FR_V77.ips** directement à la ROM japonaise
+originale sans en-tête (5 242 880 octets). Patch cumulatif : ne pas appliquer V76 auparavant.
+
+Parchemins, Équipement, Horloge, Utiliser, Modifier et les autres libellés raccourcis
+sont désormais écrits en entier. L'espacement des lettres est resserré au besoin.
+Les changements de date V76 sont inclus. [Bilan et construction V77](COMPTE_RENDU_V77.md).
+**V77 reste à tester sur SD2SNES.**
+
+---
+
 # Tengai Makyou Zero — V76 : dates françaises
 
 Appliquer **Tengai_Makyou_Zero_JP_vers_FR_V76.ips** directement à la ROM

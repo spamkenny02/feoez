@@ -1,0 +1,66 @@
+{
+  "rom_sha256": "f07747fd3bfeebcd1bd566d43d7e39fad17e52e413e1d05374f4cb6628f3f8a6",
+  "core_sha256": "bfe2814c72ea3d86f30c3198b7acdbc5a8dd7d577510d96a4ac319236984acec",
+  "field_state_sha256": "a7a21c0754b9170b66124881a7f5bced91b4c6e0f12189d8843271090f294f01",
+  "fresh_same_rom_startup": true,
+  "controller_only": true,
+  "atlas_uploads_verified": 6,
+  "visual_review": "Nine menu captures reviewed; full labels visible without window collisions. Compact spacing used where needed.",
+  "cases": [
+    {
+      "name": "main",
+      "image": "main.png",
+      "sha256": "cc41155e4b9e62353752bea1c8f4b3b9348899a8d3ecc01a092298dd4cd3707f",
+      "vram_sha256": "41cb4f94fa62885b65eef89e6adfbc901800f9cd20fa101bac8fbb6235fd9d3d"
+    },
+    {
+      "name": "scrolls",
+      "image": "scrolls.png",
+      "sha256": "2b0263574f7ae8d3735d746e6a1930661f0ec1eeb0f64ef6cb8e74197f427945",
+      "vram_sha256": "93ac7d2017e47cb128e6d8b860038b3860081037b30dfd4c374355bd13b08855"
+    },
+    {
+      "name": "settings",
+      "image": "settings.png",
+      "sha256": "038eba504f985bc19418d570e727cfcf774b2b8b1aa185e452a65185704d0ee1",
+      "vram_sha256": "797ca654cfb9610651ce362f59457e2d4ab3bea3a71223721e586de95d6fa05e"
+    },
+    {
+      "name": "inventory",
+      "image": "inventory.png",
+      "sha256": "f7787f7efe4cf3e0ca84f4606ff368aeba849861377ff27dc4c3b4320a64c345",
+      "vram_sha256": "1f6aede460c3f75cc5c1877af62813e0af0a54731a7b71067f23130c58b85432"
+    },
+    {
+      "name": "inventory_actions",
+      "image": "inventory_actions.png",
+      "sha256": "f7787f7efe4cf3e0ca84f4606ff368aeba849861377ff27dc4c3b4320a64c345",
+      "vram_sha256": "59c616189e370aa83bea9b1f5a764615cab5e76ffe625ac3e8207d2af8387473"
+    },
+    {
+      "name": "equip",
+      "image": "equip.png",
+      "sha256": "d4fca8f4d339544ed33a3569746199396ced97c4833df070fa42af7a5aaf1f55",
+      "vram_sha256": "43582f7e6ea81812e080c53a847a7c597ebab17242545733a4fdb22289252123"
+    },
+    {
+      "name": "status",
+      "image": "status.png",
+      "sha256": "478be9e8a2b5ab84141f83fe988f8bdddbf8310ad8f204d1608519a002a51250",
+      "vram_sha256": "720270497b0b318d7697266f5bc615bf8325c3bf81e9601ccaef00d1feceac3e"
+    },
+    {
+      "name": "clock",
+      "image": "clock.png",
+      "sha256": "a70b2861eaa3e0337d5ce1ed286c3dfd6f1fcf2c0128af849345276191a7e29b",
+      "vram_sha256": "b7bbef875633711396334838a85614fc0c43ffc091eda38da1d858de51fecb11"
+    },
+    {
+      "name": "strategy",
+      "image": "strategy.png",
+      "sha256": "4f7aa041bf444f010c9c8a86961e9c772c7eb4eb2a0c099fa7a51121d45249a4",
+      "vram_sha256": "cb9891b610c86957c89d0b2cdb124d3478b9a25cd86e82a0dd01a366c483738d"
+    }
+  ],
+  "hardware_validation": "pending"
+}

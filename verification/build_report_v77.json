@@ -1,0 +1,1227 @@
+{
+  "version": "V77",
+  "source_sha256": "8620203da71d32d017bb21f542864c1d90705b87eb67815d06b43f09120318aa",
+  "source_bytes": 5242880,
+  "baseline_ips_sha256": "bac055b448ad5689510f0d7c9372cb8cfbdf5a90d016f1092c60ee9447e98b4f",
+  "rom_sha256": "f07747fd3bfeebcd1bd566d43d7e39fad17e52e413e1d05374f4cb6628f3f8a6",
+  "rom_bytes": 7340032,
+  "ips_sha256": "a07ea65afc08e4fee836de42ea416f7df270c3610b3e512479ba01a934f8c5db",
+  "ips_bytes": 2194010,
+  "checksum": "0xe76e",
+  "ips_roundtrip": true,
+  "changed_bytes_from_v76": 2153,
+  "outside_documented_spans_preserved": true,
+  "dialogue_font_and_pool_preserved": true,
+  "sd2snes_native_calls_preserved": true,
+  "menu_graphics": {
+    "entries": [
+      {
+        "text": "Parchemins",
+        "tiles": 6,
+        "body_pixels": 44,
+        "pixels_with_shadow": 45,
+        "limit_pixels": 45,
+        "letter_gaps": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0e00",
+          "0x6f0e10",
+          "0x6f0e20",
+          "0x6f0e30",
+          "0x6f0e40",
+          "0x6f0e50"
+        ]
+      },
+      {
+        "text": "Stratégie",
+        "tiles": 5,
+        "body_pixels": 39,
+        "pixels_with_shadow": 40,
+        "limit_pixels": 40,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0e60",
+          "0x6f0e70",
+          "0x6f0e80",
+          "0x6f0e90",
+          "0x6f0ea0"
+        ]
+      },
+      {
+        "text": "Inventaire",
+        "tiles": 6,
+        "body_pixels": 44,
+        "pixels_with_shadow": 45,
+        "limit_pixels": 48,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0eb0",
+          "0x6f0ec0",
+          "0x6f0ed0",
+          "0x6f0ee0",
+          "0x6f0ef0",
+          "0x6f0f00"
+        ]
+      },
+      {
+        "text": "Réglages",
+        "tiles": 5,
+        "body_pixels": 36,
+        "pixels_with_shadow": 37,
+        "limit_pixels": 40,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0f10",
+          "0x6f0f20",
+          "0x6f0f30",
+          "0x6f0f40",
+          "0x6f0f50"
+        ]
+      },
+      {
+        "text": "Équipement",
+        "tiles": 6,
+        "body_pixels": 44,
+        "pixels_with_shadow": 45,
+        "limit_pixels": 45,
+        "letter_gaps": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0f60",
+          "0x6f0f70",
+          "0x6f0f80",
+          "0x6f0f90",
+          "0x6f0fa0",
+          "0x6f0fb0"
+        ]
+      },
+      {
+        "text": "Almanach",
+        "tiles": 5,
+        "body_pixels": 38,
+        "pixels_with_shadow": 39,
+        "limit_pixels": 40,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f0fc0",
+          "0x6f0fd0",
+          "0x6f0fe0",
+          "0x6f0ff0",
+          "0x6f1000"
+        ]
+      },
+      {
+        "text": "État",
+        "tiles": 3,
+        "body_pixels": 17,
+        "pixels_with_shadow": 18,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1010",
+          "0x6f1020",
+          "0x6f1030"
+        ]
+      },
+      {
+        "text": "Horloge",
+        "tiles": 4,
+        "body_pixels": 31,
+        "pixels_with_shadow": 32,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1040",
+          "0x6f1050",
+          "0x6f1060",
+          "0x6f1070"
+        ]
+      },
+      {
+        "text": "Date/heure",
+        "tiles": 7,
+        "body_pixels": 50,
+        "pixels_with_shadow": 51,
+        "limit_pixels": 56,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1080",
+          "0x6f1090",
+          "0x6f10a0",
+          "0x6f10b0",
+          "0x6f10c0",
+          "0x6f10d0",
+          "0x6f10e0"
+        ]
+      },
+      {
+        "text": "Temps de jeu",
+        "tiles": 7,
+        "body_pixels": 55,
+        "pixels_with_shadow": 56,
+        "limit_pixels": 56,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f10f0",
+          "0x6f1100",
+          "0x6f1110",
+          "0x6f1120",
+          "0x6f1130",
+          "0x6f1140",
+          "0x6f1150"
+        ]
+      },
+      {
+        "text": "Argent",
+        "tiles": 4,
+        "body_pixels": 29,
+        "pixels_with_shadow": 30,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1160",
+          "0x6f1170",
+          "0x6f1180",
+          "0x6f1190"
+        ]
+      },
+      {
+        "text": "Utiliser",
+        "tiles": 3,
+        "body_pixels": 23,
+        "pixels_with_shadow": 24,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f2200",
+          "0x6f2210",
+          "0x6f2220"
+        ]
+      },
+      {
+        "text": "Modifier",
+        "tiles": 4,
+        "body_pixels": 31,
+        "pixels_with_shadow": 32,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f2230",
+          "0x6f2240",
+          "0x6f2250",
+          "0x6f23a0"
+        ]
+      },
+      {
+        "text": "Coût technique",
+        "tiles": 6,
+        "body_pixels": 48,
+        "pixels_with_shadow": 49,
+        "limit_pixels": 48,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 1,
+        "rightmost_shadow_cropped": true,
+        "rom_tiles": [
+          "0x6f2260",
+          "0x6f2270",
+          "0x6f2280",
+          "0x6f2290",
+          "0x6f22a0",
+          "0x6f22b0"
+        ]
+      },
+      {
+        "text": "Utiliser",
+        "tiles": 3,
+        "body_pixels": 23,
+        "pixels_with_shadow": 24,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f3240",
+          "0x6f3250",
+          "0x6f3260"
+        ]
+      },
+      {
+        "text": "Trier",
+        "tiles": 3,
+        "body_pixels": 22,
+        "pixels_with_shadow": 23,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f3270",
+          "0x6f3280",
+          "0x6f3300"
+        ]
+      },
+      {
+        "text": "Remplacer",
+        "tiles": 5,
+        "body_pixels": 39,
+        "pixels_with_shadow": 40,
+        "limit_pixels": 40,
+        "letter_gaps": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f3290",
+          "0x6f32a0",
+          "0x6f32b0",
+          "0x6f32c0",
+          "0x6f34d0"
+        ]
+      },
+      {
+        "text": "Jeter",
+        "tiles": 3,
+        "body_pixels": 22,
+        "pixels_with_shadow": 23,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f32d0",
+          "0x6f32e0",
+          "0x6f32f0"
+        ]
+      },
+      {
+        "text": "Objets",
+        "tiles": 3,
+        "body_pixels": 23,
+        "pixels_with_shadow": 24,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f33b0",
+          "0x6f33c0",
+          "0x6f33d0"
+        ]
+      },
+      {
+        "text": "Vitesse du texte",
+        "tiles": 8,
+        "body_pixels": 63,
+        "pixels_with_shadow": 64,
+        "limit_pixels": 64,
+        "letter_gaps": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1860",
+          "0x6f1870",
+          "0x6f1880",
+          "0x6f1890",
+          "0x6f18a0",
+          "0x6f18b0",
+          "0x6f18c0",
+          "0x6f18d0"
+        ]
+      },
+      {
+        "text": "Vitesse de marche",
+        "tiles": 8,
+        "body_pixels": 63,
+        "pixels_with_shadow": 64,
+        "limit_pixels": 64,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1990",
+          "0x6f19a0",
+          "0x6f19b0",
+          "0x6f19c0",
+          "0x6f19d0",
+          "0x6f19e0",
+          "0x6f19f0",
+          "0x6f1a00"
+        ]
+      },
+      {
+        "text": "Musique",
+        "tiles": 4,
+        "body_pixels": 31,
+        "pixels_with_shadow": 32,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1a50",
+          "0x6f1a60",
+          "0x6f1a70",
+          "0x6f1a80"
+        ]
+      },
+      {
+        "text": "Stéréo",
+        "tiles": 3,
+        "body_pixels": 23,
+        "pixels_with_shadow": 24,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1a90",
+          "0x6f1aa0",
+          "0x6f1ab0"
+        ]
+      },
+      {
+        "text": "Mémoire du curseur",
+        "tiles": 9,
+        "body_pixels": 71,
+        "pixels_with_shadow": 72,
+        "limit_pixels": 72,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1af0",
+          "0x6f1b00",
+          "0x6f1b10",
+          "0x6f1b20",
+          "0x6f1b30",
+          "0x6f1b40",
+          "0x6f1b50",
+          "0x6f1b60",
+          "0x6f1be0"
+        ]
+      },
+      {
+        "text": "Fond",
+        "tiles": 3,
+        "body_pixels": 19,
+        "pixels_with_shadow": 20,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1bb0",
+          "0x6f1bc0",
+          "0x6f1bd0"
+        ]
+      },
+      {
+        "text": "Forme du cadre",
+        "tiles": 7,
+        "body_pixels": 55,
+        "pixels_with_shadow": 56,
+        "limit_pixels": 56,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1c00",
+          "0x6f1c10",
+          "0x6f1c20",
+          "0x6f1c30",
+          "0x6f1c40",
+          "0x6f1c50",
+          "0x6f1c60"
+        ]
+      },
+      {
+        "text": "Couleur du cadre",
+        "tiles": 7,
+        "body_pixels": 55,
+        "pixels_with_shadow": 56,
+        "limit_pixels": 56,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 1,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f1c70",
+          "0x6f1c80",
+          "0x6f1c90",
+          "0x6f1ca0",
+          "0x6f1cb0",
+          "0x6f1cc0",
+          "0x6f1cd0"
+        ]
+      },
+      {
+        "text": "Attaque",
+        "tiles": 4,
+        "body_pixels": 31,
+        "pixels_with_shadow": 32,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f3700",
+          "0x6f3710",
+          "0x6f3720",
+          "0x6f3730"
+        ]
+      },
+      {
+        "text": "Attaque",
+        "tiles": 4,
+        "body_pixels": 31,
+        "pixels_with_shadow": 32,
+        "limit_pixels": 32,
+        "letter_gaps": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f4200",
+          "0x6f4210",
+          "0x6f4220",
+          "0x6f4230"
+        ]
+      },
+      {
+        "text": "Chance",
+        "tiles": 3,
+        "body_pixels": 24,
+        "pixels_with_shadow": 25,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": true,
+        "rom_tiles": [
+          "0x6f37d0",
+          "0x6f37e0",
+          "0x6f37f0"
+        ]
+      },
+      {
+        "text": "Chance",
+        "tiles": 3,
+        "body_pixels": 24,
+        "pixels_with_shadow": 25,
+        "limit_pixels": 24,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": true,
+        "rom_tiles": [
+          "0x6f42d0",
+          "0x6f42e0",
+          "0x6f42f0"
+        ]
+      },
+      {
+        "text": "rang suivant",
+        "tiles": 6,
+        "body_pixels": 47,
+        "pixels_with_shadow": 48,
+        "limit_pixels": 48,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f3890",
+          "0x6f38a0",
+          "0x6f38b0",
+          "0x6f38c0",
+          "0x6f38d0",
+          "0x6f38e0"
+        ]
+      },
+      {
+        "text": "Équipement",
+        "tiles": 6,
+        "body_pixels": 46,
+        "pixels_with_shadow": 47,
+        "limit_pixels": 48,
+        "letter_gaps": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f4300",
+          "0x6f4310",
+          "0x6f4320",
+          "0x6f4330",
+          "0x6f4340",
+          "0x6f4350"
+        ]
+      },
+      {
+        "text": "Automatique",
+        "tiles": 6,
+        "body_pixels": 47,
+        "pixels_with_shadow": 48,
+        "limit_pixels": 48,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "space_pixels": 3,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f4360",
+          "0x6f4370",
+          "0x6f4380",
+          "0x6f4390",
+          "0x6f43a0",
+          "0x6f43b0"
+        ]
+      },
+      {
+        "text": "Sans équipement",
+        "tiles": 7,
+        "body_pixels": 55,
+        "pixels_with_shadow": 56,
+        "limit_pixels": 56,
+        "letter_gaps": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "space_pixels": 2,
+        "rightmost_shadow_cropped": false,
+        "rom_tiles": [
+          "0x6f4400",
+          "0x6f4410",
+          "0x6f4420",
+          "0x6f4430",
+          "0x6f4440",
+          "0x6f4450",
+          "0x6f4460"
+        ]
+      }
+    ],
+    "data_edits": [
+      {
+        "offset": "0xe092",
+        "before": "00810e0a008a0e0700900e0600950e0602035051525320205455565758000205595a5b5c5d5e5f606162630002076465666768696a6b6c6d6e0002096f707172732074757600010f8020812020202f202000020e202087202087222a2a2600020c7778797a7b7c7d0002127e7f036061620009142f2020000217036364656667686900ff",
+        "after": "00810e0a008a0e0700900e0600950e060203505152535455565758595a0002055b5c5d5e5f606162636465000207666768696a6b6c6d6e6f700002097172732020207475767700010f8020812020202f202000020e202087202087222a2a2600020c78797a7b7c7d7e0002127f036061626364650009142f2020000217036667686900ff",
+        "purpose": "Main menu atlas tile references"
+      },
+      {
+        "offset": "0xe17e",
+        "before": "01035051df00",
+        "after": "010350515200",
+        "purpose": "Scroll Use full label"
+      },
+      {
+        "offset": "0xe184",
+        "before": "01055253545500",
+        "after": "01055354556a00",
+        "purpose": "Scroll Modifier fourth tile"
+      },
+      {
+        "offset": "0x6f23cf",
+        "before": "a003",
+        "after": "b003",
+        "purpose": "Scroll graphics upload: add one spare tile"
+      },
+      {
+        "offset": "0xe204",
+        "before": "0503545520202020565758202020595a5b5c20205d5e5f6000",
+        "after": "0503545556202020575860202020595a5b5c7d205d5e5f2000",
+        "purpose": "Inventory actions full labels and padding"
+      },
+      {
+        "offset": "0x6d800f",
+        "before": "d004",
+        "after": "e004",
+        "purpose": "Inventory graphics upload: add one spare tile"
+      },
+      {
+        "offset": "0x6f2e15",
+        "before": "d004",
+        "after": "e004",
+        "purpose": "Inventory graphics upload: add one spare tile"
+      },
+      {
+        "offset": "0x6f3f4f",
+        "before": "d004",
+        "after": "e004",
+        "purpose": "Inventory graphics upload: add one spare tile"
+      },
+      {
+        "offset": "0x36327",
+        "before": "040f555657202020202020202020202058595a5b205c5d5e00",
+        "after": "040f5556575820202020202020202020595a5b20205c5d5e00",
+        "purpose": "Music and Stereo tile references"
+      },
+      {
+        "offset": "0x36342",
+        "before": "5f6061626364656620",
+        "after": "5f606162636465666e",
+        "purpose": "Cursor memory extra tile uses padding"
+      },
+      {
+        "offset": "0x3635a",
+        "before": "6b6c6d6e6f",
+        "after": "6b6c6d2020",
+        "purpose": "Fond tail tile reused for cursor memory"
+      },
+      {
+        "offset": "0xef92",
+        "before": "20996064585f1d202020",
+        "after": "996064585f545c545d63",
+        "purpose": "Status equipment heading"
+      }
+    ],
+    "spans": [
+      [
+        "0x6f0e00",
+        "0x6f0e60"
+      ],
+      [
+        "0x6f0e60",
+        "0x6f0eb0"
+      ],
+      [
+        "0x6f0eb0",
+        "0x6f0f10"
+      ],
+      [
+        "0x6f0f10",
+        "0x6f0f60"
+      ],
+      [
+        "0x6f0f60",
+        "0x6f0fc0"
+      ],
+      [
+        "0x6f0fc0",
+        "0x6f1010"
+      ],
+      [
+        "0x6f1010",
+        "0x6f1040"
+      ],
+      [
+        "0x6f1040",
+        "0x6f1080"
+      ],
+      [
+        "0x6f1080",
+        "0x6f10f0"
+      ],
+      [
+        "0x6f10f0",
+        "0x6f1160"
+      ],
+      [
+        "0x6f1160",
+        "0x6f11a0"
+      ],
+      [
+        "0xe092",
+        "0xe116"
+      ],
+      [
+        "0x6f2200",
+        "0x6f2230"
+      ],
+      [
+        "0x6f2230",
+        "0x6f2260"
+      ],
+      [
+        "0x6f23a0",
+        "0x6f23b0"
+      ],
+      [
+        "0x6f2260",
+        "0x6f22c0"
+      ],
+      [
+        "0xe17e",
+        "0xe184"
+      ],
+      [
+        "0xe184",
+        "0xe18b"
+      ],
+      [
+        "0x6f23cf",
+        "0x6f23d1"
+      ],
+      [
+        "0x6f3240",
+        "0x6f3270"
+      ],
+      [
+        "0x6f3270",
+        "0x6f3290"
+      ],
+      [
+        "0x6f3300",
+        "0x6f3310"
+      ],
+      [
+        "0x6f3290",
+        "0x6f32d0"
+      ],
+      [
+        "0x6f34d0",
+        "0x6f34e0"
+      ],
+      [
+        "0x6f32d0",
+        "0x6f3300"
+      ],
+      [
+        "0xe204",
+        "0xe21d"
+      ],
+      [
+        "0x6d800f",
+        "0x6d8011"
+      ],
+      [
+        "0x6f2e15",
+        "0x6f2e17"
+      ],
+      [
+        "0x6f3f4f",
+        "0x6f3f51"
+      ],
+      [
+        "0x6f33b0",
+        "0x6f33e0"
+      ],
+      [
+        "0x6f1860",
+        "0x6f18e0"
+      ],
+      [
+        "0x6f1990",
+        "0x6f1a10"
+      ],
+      [
+        "0x6f1a50",
+        "0x6f1a90"
+      ],
+      [
+        "0x6f1a90",
+        "0x6f1ac0"
+      ],
+      [
+        "0x6f1af0",
+        "0x6f1b70"
+      ],
+      [
+        "0x6f1be0",
+        "0x6f1bf0"
+      ],
+      [
+        "0x6f1bb0",
+        "0x6f1be0"
+      ],
+      [
+        "0x6f1c00",
+        "0x6f1c70"
+      ],
+      [
+        "0x6f1c70",
+        "0x6f1ce0"
+      ],
+      [
+        "0x36327",
+        "0x36340"
+      ],
+      [
+        "0x36342",
+        "0x3634b"
+      ],
+      [
+        "0x3635a",
+        "0x3635f"
+      ],
+      [
+        "0x6f3700",
+        "0x6f3740"
+      ],
+      [
+        "0x6f4200",
+        "0x6f4240"
+      ],
+      [
+        "0x6f37d0",
+        "0x6f3800"
+      ],
+      [
+        "0x6f42d0",
+        "0x6f4300"
+      ],
+      [
+        "0x6f3890",
+        "0x6f38f0"
+      ],
+      [
+        "0x6f4300",
+        "0x6f4360"
+      ],
+      [
+        "0x6f4360",
+        "0x6f43c0"
+      ],
+      [
+        "0x6f4400",
+        "0x6f4470"
+      ],
+      [
+        "0xef92",
+        "0xef9c"
+      ]
+    ],
+    "scope": "Native 8px bitmap labels; no glyph body pixels clipped or rescaled."
+  },
+  "hardware_validation": "V77 requires a fresh SD2SNES test."
+}
