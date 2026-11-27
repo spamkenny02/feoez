@@ -1,0 +1,952 @@
+[
+  {
+    "frames": 180,
+    "screenshot": "boot"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 1200,
+    "screenshot": "check_a"
+  },
+  {
+    "reset": true,
+    "frames": 180,
+    "screenshot": "after_reset_a"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 1200,
+    "screenshot": "check_b"
+  },
+  {
+    "reset": true,
+    "frames": 1800,
+    "screenshot": "after_checks"
+  },
+  {
+    "frames": 1800,
+    "screenshot": "clock_wait"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Start"
+    ]
+  },
+  {
+    "frames": 240,
+    "screenshot": "title_menu"
+  },
+  {
+    "frames": 3600,
+    "screenshot": "title_idle"
+  },
+  {
+    "frames": 6000,
+    "screenshot": "title_after_intro"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "Start"
+    ]
+  },
+  {
+    "frames": 120,
+    "screenshot": "start_menu"
+  },
+  {
+    "frames": 600,
+    "screenshot": "menu_ready"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 120,
+    "screenshot": "after_a"
+  },
+  {
+    "frames": 1800,
+    "screenshot": "after_a_wait"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 1200,
+    "screenshot": "date_setup",
+    "save": "date_setup"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 120,
+    "screenshot": "date_confirmed"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "new_game_menu"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "after_confirm_yes"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 180,
+    "screenshot": "choose_game"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 20,
+    "screenshot": "confirm_left"
+  },
+  {
+    "frames": 4,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "clock_done"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20,
+    "screenshot": "question_again"
+  },
+  {
+    "frames": 4,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 20,
+    "screenshot": "question_up"
+  },
+  {
+    "frames": 4,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "after_up_confirm"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Start"
+    ]
+  },
+  {
+    "frames": 240,
+    "screenshot": "clock_start"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Right"
+    ]
+  },
+  {
+    "frames": 20,
+    "screenshot": "question_right"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 1200,
+    "screenshot": "right_confirm_result"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "clock_b_result"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Right"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "birthday_confirm_result"
+  },
+  {
+    "frames": 2,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 60,
+    "screenshot": "birthday_question"
+  },
+  {
+    "frames": 2,
+    "buttons": [
+      "Right"
+    ]
+  },
+  {
+    "frames": 60,
+    "screenshot": "birthday_question_right"
+  },
+  {
+    "frames": 2,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "birthday_finished"
+  },
+  {
+    "frames": 2,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 2,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 1200,
+    "screenshot": "after_birthday"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 10,
+    "screenshot": "birthday_yes_selected"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "birthday_yes_b"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "birthday_yes_a"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Right"
+    ]
+  },
+  {
+    "frames": 30,
+    "screenshot": "birthday_right_again"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Right"
+    ]
+  },
+  {
+    "frames": 30,
+    "screenshot": "birthday_right_twice"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 10,
+    "screenshot": "birthday_choice_up"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "B"
+    ]
+  },
+  {
+    "frames": 600,
+    "screenshot": "birthday_choice_confirm"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 5,
+    "screenshot": "birth_step1"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 5,
+    "screenshot": "birth_step2"
+  },
+  {
+    "frames": 1,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 5,
+    "screenshot": "birth_step3",
+    "save": "birth_step3"
+  },
+  {
+    "load": "@RUN_DIR@/date_setup.state",
+    "frames": 120
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_day_first",
+    "dump_ram": "rtc_day_first",
+    "dump_persistent": "rtc_day_first"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_day_23",
+    "dump_ram": "rtc_day_23",
+    "dump_persistent": "rtc_day_23"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_month_01",
+    "dump_ram": "rtc_month_01",
+    "dump_persistent": "rtc_month_01"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_year_1996",
+    "dump_ram": "rtc_year_1996",
+    "dump_persistent": "rtc_year_1996"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_confirmation",
+    "dump_ram": "rtc_confirmation",
+    "dump_persistent": "rtc_confirmation"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "rtc_accepted",
+    "dump_ram": "rtc_accepted",
+    "dump_persistent": "rtc_accepted"
+  },
+  {
+    "load": "@RUN_DIR@/birth_step3.state",
+    "frames": 120
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_edit_day",
+    "dump_ram": "birth_edit_day",
+    "dump_persistent": "birth_edit_day"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_day_23",
+    "dump_ram": "birth_day_23",
+    "dump_persistent": "birth_day_23"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_month_01",
+    "dump_ram": "birth_month_01",
+    "dump_persistent": "birth_month_01"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Down"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_year_1994",
+    "dump_ram": "birth_year_1994",
+    "dump_persistent": "birth_year_1994"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_confirmation",
+    "dump_ram": "birth_confirmation",
+    "dump_persistent": "birth_confirmation"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "birth_accepted",
+    "dump_ram": "birth_accepted",
+    "dump_persistent": "birth_accepted"
+  },
+  {
+    "load": "@RUN_DIR@/date_setup.state",
+    "frames": 120
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "invalid_31_feb_confirmation",
+    "dump_ram": "invalid_31_feb_confirmation",
+    "dump_persistent": "invalid_31_feb_confirmation"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "invalid_31_feb_rejected",
+    "dump_ram": "invalid_31_feb_rejected",
+    "dump_persistent": "invalid_31_feb_rejected"
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "invalid_back_to_day",
+    "dump_ram": "invalid_back_to_day",
+    "dump_persistent": "invalid_back_to_day"
+  },
+  {
+    "load": "@RUN_DIR@/date_setup.state",
+    "frames": 120
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "A"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Left"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 12,
+    "buttons": [
+      "Up"
+    ]
+  },
+  {
+    "frames": 60
+  },
+  {
+    "frames": 120,
+    "screenshot": "backtracking_to_day",
+    "dump_ram": "backtracking_to_day",
+    "dump_persistent": "backtracking_to_day"
+  },
+  {
+    "quit": true
+  }
+]

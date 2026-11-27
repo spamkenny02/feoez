@@ -1,16 +1,27 @@
-# Version actuelle : V75 compatible SD2SNES
+# Tengai Makyou Zero — V76 : dates françaises
 
-Le patch `Tengai_Makyou_Zero_JP_vers_FR_V75.ips` est identique au fichier
-`JP_vers_FR_V75_test_A_sans_hooks.ips` déclaré fonctionnel sur SD2SNES par l'utilisateur.
-Il s'applique à la ROM japonaise sans en-tête (5 Mio), avec extension à 7 Mio.
-Le patch `Tengai_Makyou_Zero_FR_V75.ips` s'applique à la ROM anglaise d'origine
-sans en-tête (7 Mio, SHA-256 `eb07eed483f8f79ab64309c50ad0ef19560946b8e28fbd695470552ba68e356e`).
-Ne pas cumuler les patches et repartir de la ROM source correspondante.
+Appliquer **Tengai_Makyou_Zero_JP_vers_FR_V76.ips** directement à la ROM
+**japonaise originale sans en-tête (5 242 880 octets)**. Le patch est cumulatif :
+il inclut la traduction V75 et produit une ROM de 7 340 032 octets.
+Ne pas l'appliquer sur une ROM anglaise ou déjà patchée.
 
-Les deux redirections des parchemins et du générique sont désactivées ; les
-routines et les traductions restent présentes. Voir [bilan V75](COMPTE_RENDU_V75.md)
-pour les empreintes, les limites et la construction. La validation SD2SNES est
-celle rapportée par l'utilisateur ; aucune nouvelle exécution matérielle n'a été réalisée.
+- SHA-256 source JP : `8620203da71d32d017bb21f542864c1d90705b87eb67815d06b43f09120318aa`.
+- SHA-256 ROM V76 : `71d3eccf11ce58d3f689c3b97f80ed19890d1d96d2665562f0cc769111212937`.
+- Horloge et naissance : saisie, affichage et confirmation **jour-mois-an**.
+- Almanach : date numérique jour-mois-an, chiffres 1 et 6 visibles.
+- Les deux redirections retirées dans la variante V75 validée sur SD2SNES restent désactivées.
+
+Construction à partir de la seule ROM japonaise :
+
+```bash
+python tools/build_v76.py "Tengai Makyou Zero (Japan).sfc" --rom-out fr_v76.sfc
+python tools/verify_date_order_v76.py "Tengai Makyou Zero (Japan).sfc" --out verification/date_order_v76_checks.json
+```
+
+Voir [bilan V76](COMPTE_RENDU_V76.md) et [rapport de saisie](verification/date_order_v76_runtime/report.json).
+Les contrôles natifs et le parcours Snes9x ont réussi ; **V76 reste à tester sur SD2SNES**.
+Les anciens patches et scripts EN sont conservés comme historique. Les nouvelles
+versions publiées partent de la ROM japonaise uniquement.
 
 ---
 

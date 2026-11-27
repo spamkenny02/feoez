@@ -1,0 +1,41 @@
+{
+  "version": "V76",
+  "rom_sha256": "71d3eccf11ce58d3f689c3b97f80ed19890d1d96d2665562f0cc769111212937",
+  "core_sha256": "bfe2814c72ea3d86f30c3198b7acdbc5a8dd7d577510d96a4ac319236984acec",
+  "controller_only": true,
+  "states_created_from_same_rom": true,
+  "rtc_persisted": "1996-01-23 13:01",
+  "birthday_stored": "1994-01-23",
+  "invalid_february_31_rejected": true,
+  "backtracking_to_day": true,
+  "visual_review": "Reviewed clock and birthday input/confirmation, day/month changes, backtracking and Almanac 22-12-1995. Date digits 1 and 6 also checked by native formatter tests.",
+  "hardware_validation": "pending",
+  "screenshots": [
+    "backtracking_to_day.png",
+    "birth_accepted.png",
+    "birth_confirmation.png",
+    "birth_day_23.png",
+    "birth_edit_day.png",
+    "birth_month_01.png",
+    "birth_year_1994.png",
+    "invalid_31_feb_confirmation.png",
+    "invalid_31_feb_rejected.png",
+    "invalid_back_to_day.png",
+    "rtc_accepted.png",
+    "rtc_confirmation.png",
+    "rtc_day_23.png",
+    "rtc_day_first.png",
+    "rtc_month_01.png",
+    "rtc_year_1996.png",
+    "almanac_open.png"
+  ],
+  "natural_almanac": {
+    "controller_only": true,
+    "same_rom_fresh_field_replay": true,
+    "field_frame": 64342,
+    "almanac_frame": 65086,
+    "date": "1995-12-22"
+  },
+  "core_provenance": "Local Snes9x 1.63 libretro core; Windows CRT import names adapted for loading, emulation logic unchanged. Core and ROM hashes identify the actual run.",
+  "baseline_control_note": "The downloaded current core failed RTC startup checks on both untouched Japanese ROM and V75; the Snes9x 1.63 core used here completed initialization."
+}

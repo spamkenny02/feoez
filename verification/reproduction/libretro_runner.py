@@ -3,7 +3,7 @@
 framebuffer capture, save states and WRAM inspection. No ROM patches or cheats.
 Commands on stdin are JSON objects; responses are one-line JSON.
 """
-import argparse,ctypes as C,hashlib,json,sys,time
+import argparse,ctypes as C,hashlib,json,os,sys,time
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -20,7 +20,8 @@ INPUT=C.CFUNCTYPE(C.c_int16,C.c_uint,C.c_uint,C.c_uint,C.c_uint)
 BUTTONS={'B':0,'Y':1,'Select':2,'Start':3,'Up':4,'Down':5,'Left':6,'Right':7,'A':8,'X':9,'L':10,'R':11}
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--history-every',type=int,default=1);ap.add_argument('--core',type=Path,required=True);ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+    ap=argparse.ArgumentParser();ap.add_argument('--history-every',type=int,default=1);ap.add_argument('--core',type=Path,required=True);ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--dll-dir',type=Path,help='Optional Windows core dependency directory');a=ap.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+    dll_directory=os.add_dll_directory(str(a.dll_dir.resolve())) if a.dll_dir and sys.platform=='win32' else None
     lib=C.CDLL(str(a.core.resolve()));latest={};frame=0;pressed=set();options={};pixel=2;audio_frames=0;history=[]
     directory=str(a.out.resolve()).encode()
     @ENV
@@ -69,7 +70,7 @@ def main():
     system=System();lib.retro_get_system_info(C.byref(system));lib.retro_init()
     data=a.rom.read_bytes();buffer=C.create_string_buffer(data);game=Game(str(a.rom.resolve()).encode(),C.cast(buffer,C.c_void_p),len(data),None)
     if not lib.retro_load_game(C.byref(game)):raise RuntimeError('Core failed to load ROM')
-    libc=C.CDLL(None)
+    libc=C.CDLL('msvcrt' if sys.platform=='win32' else None)
     def send(value):libc.fflush(None);print(json.dumps(value),flush=True)
     def snapshot(name):
         if not latest:raise RuntimeError('No video frame yet')
@@ -109,6 +110,10 @@ def main():
                 ptr=lib.retro_get_memory_data(3);size=lib.retro_get_memory_size(3)
                 if not ptr or size!=65536:raise RuntimeError('Core does not expose SNES VRAM')
                 p=a.out/(command['dump_vram']+'.vram');p.write_bytes(C.string_at(ptr,size));response['vram_file']=str(p.resolve())
+            if command.get('dump_persistent'):
+                for memory,suffix in ((0,'srm'),(1,'rtc')):
+                    ptr=lib.retro_get_memory_data(memory);size=lib.retro_get_memory_size(memory)
+                    if ptr and size:(a.out/(command['dump_persistent']+'.'+suffix)).write_bytes(C.string_at(ptr,size))
             response.update(frame=frame,audio_samples=audio_frames,elapsed=round(time.monotonic()-t,3));history.append({'command':command,'response':response});
             if len(history)%max(1,a.history_every)==0 or command.get('quit'):(a.out/'history.json').write_text(json.dumps(history,indent=2))
             send(response)

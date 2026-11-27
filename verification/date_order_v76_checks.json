@@ -1,0 +1,8 @@
+{
+  "rom_sha256": "71d3eccf11ce58d3f689c3b97f80ed19890d1d96d2665562f0cc769111212937",
+  "native_input_display_cases": 3267,
+  "native_edit_wrapper_cases": 5120,
+  "native_almanac_reorder_cases": 36,
+  "date_storage_preserved": true,
+  "scope": "Actual 65816 date formatter and wrappers; no PPU, RTC or full event simulation."
+}

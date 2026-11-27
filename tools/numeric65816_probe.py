@@ -97,6 +97,7 @@ class NumericCPU:
                 r=self.Y-self.read(self.fetch(2),xw);self.P=(self.P&~1)|(1 if r>=0 else 0);self.nz(r&((1<<(8*xw))-1),xw)
             elif op==0x0d:self.set_a(self.A|self.read(self.fetch(2),mw))
             elif op==0x8e:self.write(self.fetch(2),self.X,xw)
+            elif op==0x8c:self.write(self.fetch(2),self.Y,xw)
             elif op==0x9e:self.write(self.fetch(2)+self.X,0,mw)
             elif op==0xeb:
                 self.A=((self.A&255)<<8)|(self.A>>8);self.nz(self.A&255,1)
@@ -105,6 +106,7 @@ class NumericCPU:
             elif op==0xa0:self.Y=self.fetch(xw);self.nz(self.Y,xw)
             elif op==0xa6:self.X=self.read(self.fetch(),xw);self.nz(self.X,xw)
             elif op==0xae:self.X=self.read(self.fetch(2),xw);self.nz(self.X,xw)
+            elif op==0xbc:self.Y=self.read(self.fetch(2)+self.X,xw);self.nz(self.Y,xw)
             elif op==0x64:self.write(self.fetch(),0,mw)
             elif op==0xe5:self.adc(self.read(self.fetch(),mw)^((1<<(8*mw))-1))
             elif op==0xe9:self.adc(self.fetch(mw)^((1<<(8*mw))-1))
