@@ -1,3 +1,7 @@
+## V79 — Expérience dans le bilan de combat et le menu État
+
+Appliquer **Tengai_Makyou_Zero_JP_vers_FR_V79.ips** à la ROM japonaise originale de 5 Mio. Le bilan affiche « Expérience gagnée » et le menu État affiche « Expérience » et « Expérience requise ». Les autres messages du bloc de bilan ont été vérifiés avec la routine de lecture native. Le menu État a été contrôlé dans Snes9x.
+
 ## V78 — Éléments des parchemins
 
 Le patch cumulatif `Tengai_Makyou_Zero_JP_vers_FR_V78.ips` s'applique à la ROM japonaise originale de 5 Mio. Les quatre vignettes affichent Feu, Eau, Vent et Foudre. Le mot Foudre utilise des lettres de trois pixels pour garder un espace entre elles.
