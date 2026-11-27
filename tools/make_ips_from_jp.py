@@ -9,6 +9,7 @@ d'aucun remplissage implicite du logiciel d'application.
 """
 import sys
 from pathlib import Path
+from sd2snes_compat import preserve_native_calls
 
 
 def build_ips(jp, target, gap=6):
@@ -57,7 +58,7 @@ def apply_ips_any(rom, ips):
 
 def main():
     jp = Path(sys.argv[1]).read_bytes()
-    target = Path(sys.argv[2]).read_bytes()
+    target = preserve_native_calls(jp, Path(sys.argv[2]).read_bytes())
     ips = build_ips(jp, target)
     assert apply_ips_any(jp, ips) == target, 'relecture KO'
     Path(sys.argv[3]).write_bytes(ips)

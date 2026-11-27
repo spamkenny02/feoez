@@ -1,3 +1,19 @@
+# Version actuelle : V75 compatible SD2SNES
+
+Le patch `Tengai_Makyou_Zero_JP_vers_FR_V75.ips` est identique au fichier
+`JP_vers_FR_V75_test_A_sans_hooks.ips` déclaré fonctionnel sur SD2SNES par l'utilisateur.
+Il s'applique à la ROM japonaise sans en-tête (5 Mio), avec extension à 7 Mio.
+Le patch `Tengai_Makyou_Zero_FR_V75.ips` s'applique à la ROM anglaise d'origine
+sans en-tête (7 Mio, SHA-256 `eb07eed483f8f79ab64309c50ad0ef19560946b8e28fbd695470552ba68e356e`).
+Ne pas cumuler les patches et repartir de la ROM source correspondante.
+
+Les deux redirections des parchemins et du générique sont désactivées ; les
+routines et les traductions restent présentes. Voir [bilan V75](COMPTE_RENDU_V75.md)
+pour les empreintes, les limites et la construction. La validation SD2SNES est
+celle rapportée par l'utilisateur ; aucune nouvelle exécution matérielle n'a été réalisée.
+
+---
+
 # Tengai Makyou Zero — Traduction française V55
 
 **Lot49 complet :400 nouveaux textes distincts, phase1.**

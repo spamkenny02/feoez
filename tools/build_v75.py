@@ -8,6 +8,7 @@ import feoez_kit as kit  # noqa: E402
 import french_font as ff  # noqa: E402
 import debug_labels_fr as dl  # noqa: E402
 from insert import make_ips, apply_ips  # noqa: E402
+from sd2snes_compat import preserve_native_calls  # noqa: E402
 
 def main():
     src = Path(sys.argv[1]).read_bytes()
@@ -30,6 +31,7 @@ def main():
         r['fr'] = kit.esc(fr)
         n += 1
     rom, rep = kit.build_rom(src, v74, by, None)
+    rom = preserve_native_calls(src, rom)
     ips = make_ips(src, rom)
     assert apply_ips(src, ips) == rom
     (ROOT / 'Tengai_Makyou_Zero_FR_V75.ips').write_bytes(ips)
