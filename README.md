@@ -1,3 +1,10 @@
+## V78 — Éléments des parchemins
+
+Le patch cumulatif `Tengai_Makyou_Zero_JP_vers_FR_V78.ips` s'applique à la ROM japonaise originale de 5 Mio. Les quatre vignettes affichent Feu, Eau, Vent et Foudre. Le mot Foudre utilise des lettres de trois pixels pour garder un espace entre elles.
+
+Les 60 tuiles décompressées correspondent aux données chargées en VRAM dans Snes9x. Le flux tient dans la place d'origine (549 octets sur 705). La V78 reste à vérifier sur SD2SNES.
+
+
 # Tengai Makyou Zero — V77 : mots complets dans les menus
 
 Appliquer **Tengai_Makyou_Zero_JP_vers_FR_V77.ips** directement à la ROM japonaise
